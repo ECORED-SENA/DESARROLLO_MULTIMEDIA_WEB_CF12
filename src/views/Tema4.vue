@@ -4,15 +4,14 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-botones
       .titulo-principal__numero
-        span 1
-      h1 Diseño de pruebas para la evaluación del proyecto multimedia
-      
+        span 4
+      h1 Estrategias de CRM 
+
 </template>
 
 <script>
 export default {
-  name: 'Tema1',
-  components: {},
+  name: 'Tema4',
   data: () => ({
     // variables de vue
   }),
