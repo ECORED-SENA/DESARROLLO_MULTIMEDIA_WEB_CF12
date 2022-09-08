@@ -113,7 +113,6 @@
           li
             i.fas.fa-check-circle.trans
             | El usuario debe tener la capacidad de sintetizar, captar, observar y percibir si la aplicación en algún momento presenta cambios sustanciales dentro de la operación del sistema.
-          li.pb-0
       .col-12.col-md-5(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema1/t1-12.svg', alt='Texto que describa la imagen')
@@ -140,11 +139,11 @@
           img(src='@/assets/curso/tema1/t1-14.svg', alt='Texto que describa la imagen')
       .col-12.col-md-7(data-aos="fade-left")
         LineaTiempoD.color-acento-botones
-          p.text-small(numero="H1" titulo="Visibilidad del estado del sistema") El usuario debe recibir una retroalimentación del estado del producto en cada instante para saber qué pasa cuando interactúa con él, por ejemplo si está guardando, cargando, o si hay algún tipo de error.
-          p.text-small(numero="H2" titulo="Visibilidad del estado del sistema") Se debe brindar al usuario toda la información necesaria para que no tenga dudas o cometa errores en la acción que va a realizar. 
-          p.text-small(numero="H3" titulo="Libertad al usuario") El sistema debe permitir que el usuario cancele un proceso que estaba realizando sin finalizarlo, de tal manera que esta acción no representa compromisos o penalizaciones que puedan llegar a afectar en cualquier aspecto de su estado emocional o material.
-          p.text-small(numero="H4" titulo="Consistencia") Utilizar un patrón de diseño de los elementos del producto no solo le proporciona coherencia sino claridad y facilidad de uso a la hora de ser utilizado por el usuario. Por ejemplo cuando se diseñan botones se debe colocar del mismo color y tamaño.
-          p.text-small(numero="H5" titulo="Prevención de errores") Se deben dar instrucciones claras a los usuarios sobre cómo manejar el producto y las acciones que deben realizar para evitar su mal uso y posteriormente el abandono, debido a los errores que puede arrojar.
+          p(numero="H1" titulo="Visibilidad del estado del sistema") El usuario debe recibir una retroalimentación del estado del producto en cada instante para saber qué pasa cuando interactúa con él, por ejemplo si está guardando, cargando, o si hay algún tipo de error.
+          p(numero="H2" titulo="Visibilidad del estado del sistema") Se debe brindar al usuario toda la información necesaria para que no tenga dudas o cometa errores en la acción que va a realizar. 
+          p(numero="H3" titulo="Libertad al usuario") El sistema debe permitir que el usuario cancele un proceso que estaba realizando sin finalizarlo, de tal manera que esta acción no representa compromisos o penalizaciones que puedan llegar a afectar en cualquier aspecto de su estado emocional o material.
+          p(numero="H4" titulo="Consistencia") Utilizar un patrón de diseño de los elementos del producto no solo le proporciona coherencia sino claridad y facilidad de uso a la hora de ser utilizado por el usuario. Por ejemplo cuando se diseñan botones se debe colocar del mismo color y tamaño.
+          p(numero="H5" titulo="Prevención de errores") Se deben dar instrucciones claras a los usuarios sobre cómo manejar el producto y las acciones que deben realizar para evitar su mal uso y posteriormente el abandono, debido a los errores que puede arrojar.
           
     .row.mb-5
       .col-12.col-md-7.mb-3.mb-md-0(data-aos="fade-left")
