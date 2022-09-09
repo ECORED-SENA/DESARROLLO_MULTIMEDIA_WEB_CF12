@@ -20,16 +20,16 @@
       h4.mb-5.bgr_4.p-3.text-white(data-aos="fade-down-right") Objetivo de la prueba
 
       .row.mb-5
-        .col-12.col-md-8
+        .col-12.col-md-8.mb-3.mb-md-0
           p.mb-5 Lo primero que se debe incluir en el informe es el propósito que condujo a la aplicación de la evaluación, ya que hay muchos aspectos que se pueden medir en los productos multimedia o aplicativos informáticos en general y se debe especificar a cuál de ellos le apuntó la prueba realizada.
           h4.mb-5.bgr_4.p-3.text-white(data-aos="fade-down-right") Participante
           p En el informe se describen las características o competencias que deben cumplir los usuarios para la realización de la prueba, ya que estos deben ser seleccionados basados en ellas. Dichas características deben ser similares y el número de participantes que se relacione en el informe no debe pasar de ocho (8), ya que como dice Nielsen citado por Vega (s.f.), entre más usuarios participen más repetición de resultados se obtendrá. Hay pruebas que solo son realizados por usuarios expertos como las que corresponden a la técnica heurística y a la inspección de estándares para las cuales hay que describir el tipo de experto participante (de usabilidad, accesibilidad o escalabilidad) o el estándar de especialidad por ejemplo estándar de contenido u otro. 
-        .col-12.col-md-4.d-flex.align-items-center
+        .col-12.col-md-4.d-flex.align-items-center(data-aos="flip-left")
           figure
             img(src='@/assets/curso/tema3/t3-2.svg', alt='Texto que describa la imagen')
     
     .row.mb-5
-      .col-12.col-md-4
+      .col-12.col-md-4.mb-3.mb-md-0(data-aos="flip-right")
         figure
           img(src='@/assets/curso/tema3/t3-3.svg', alt='Texto que describa la imagen')
       .col-12.col-md-8
@@ -38,9 +38,9 @@
         .cajon.bgr.p-4.mb-3
           p.mb-0 Por ejemplo en la “Aplicación de Comidas Rápidas”  se evaluaron:
         .row
-          .col-12.col-md-2
-            figure
-              img(src='@/assets/curso/tema3/t3-4.svg', alt='Texto que describa la imagen')
+          .col-12.col-md-2.mb-3.mb-md-0
+            figure.d-flex.justify-content-center
+              img.img100(src='@/assets/curso/tema3/t3-4.svg', alt='Texto que describa la imagen')
           .col-12.col-md-10
             p <b>Heurísticas:</b> H1, H2, H3, H7, H12 y H15
             p <b>Estándares:</b>
@@ -57,9 +57,9 @@
     p.mb-5 Las tareas que se asignan a los participantes deben quedar documentadas anexando las preguntas que acompañan la ejecución. Por ejemplo en la técnica de Prestaciones del método <em>Test</em> se asignaron 5 tareas a los usuarios con sus respectivas preguntas:
 
     .row.mb-5
-      .col-12.col-md-8
-        .bgr_8.p-5
-          ul.lista-ul--color.lista-ul--separador.ps-4
+      .col-12.col-md-8.mb-3.mb-md-0(data-aos="fade-right")
+        .bgr_8.p-3.p-md-5
+          ul.lista-ul--color.lista-ul--separador.ps-md-4
             li
               i.fas.fa-check-circle.trans_5
               span <b>TAREA 1:</b> buscar el producto a pedir
@@ -75,12 +75,12 @@
               span <b>TAREA 3:</b> Cancelar el proceso de pedido
                 br
                 span ¿Pudo cancelar el pedido que estaba realizando? (SÍ/NO) porqué (explicar qué pasó si hubo algún error en la cancelación)
-      .col-12.col-md-4
+      .col-12.col-md-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema3/t3-5.svg', alt='Texto que describa la imagen')
     
     .row.mb-5
-      .col-12.col-md-4
+      .col-12.col-md-4.mb-3.mb-md-0(data-aos="flip-right")
         figure
           img(src='@/assets/curso/tema3/t3-6.svg', alt='Texto que describa la imagen')
       .col-12.col-md-8
@@ -102,9 +102,9 @@
               h3.mb-1 Informe de resultados de las pruebas de los usuarios
               p.mb-0 Siguiendo con el caso estudio: “Aplicación de Comidas Rápidas” , se muestra un ejemplo de un informe de resultados descargando el siguiente documento:    
             .col-sm-auto
-              a.boton.color-acento-botones.colr_2(href="https://www.w3.org/WAI/fundamentals/accessibility-principles/es" target="_blank")
-                span Ir a la página
-                i.fas.fa-link
+              a.boton.color-acento-botones.colr_2(:href="obtenerLink('downloads/Anexo_02.pdf')" target="_blank")
+                span Descargar
+                i.fas.fa-file-download
     
 
 </template>

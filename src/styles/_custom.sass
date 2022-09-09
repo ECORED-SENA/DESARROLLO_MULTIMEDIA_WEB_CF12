@@ -179,8 +179,8 @@
     background: rgb(245,245,245);
     background: linear-gradient(180deg, rgba(245,245,245,1) 0%, rgba(245,245,245,1) 25%, rgba(167,179,207,1) 100%);    border-radius: 10px
     margin-top: -72px
-    @media screen and ( max-width: 400px)
-      bottom: -130%
+    @media screen and ( max-width: 420px)
+      margin-top: -15px
   &_4
     background-color: #1565C0
     width: fit-content
@@ -228,6 +228,7 @@
     background-image: url("../assets/curso/tema4/fondo1.svg")
     background-repeat: no-repeat
     background-size: cover
+    border-radius: 50px
   &_13
     background-image: url("../assets/curso/tema4/01.svg")
     background-repeat: no-repeat
@@ -408,16 +409,30 @@
     height: 80%
     background-color: #FFFAE7
     border-radius: 10px
+    @media screen and (max-width: 420px)
+      margin: 0 -2rem
+      width: calc(100% + 4rem)
+      top: 0
+      left: 0
+      height: 100%
+      
 //TRANSFORMAR CONTENIDO//
 .trans
   font-size: 20px
   &_1
     border-left: 10px solid black
+    @media screen and (max-width: 420px)
+      border-left: none
+      
   &_2
     position: absolute
     top: 0
     left: 0
     width: 60px
+    @media screen and (max-width: 992px)
+      top: -10px;
+      left: -15px;
+      width: 54px; 
   &_3
     .text-end
       text-align: left !important
@@ -438,6 +453,19 @@
     border-bottom: solid 0px #b0c0d2 !important
   &_8
     border-left: 5px dashed #B4B4B4
+    @media screen and (max-width: 420px)
+      border-left: none
+      
+  &_9
+    position: absolute
+    top: 0
+    left: 0
+    width: 60px
+    @media screen and ( max-width: 420px  )
+      left: 20px
+      top: 10px
+    
+      
 //POSICION EN PANTALLA//
 .pst
   position: absolute
@@ -456,6 +484,7 @@
   background-color: #CBDEF4
 .bloque-texto-a.color-primario
   background-color: #F6F6F6
+
 //MODIFICACION PASOS//
 .pasos-a.color-acento-contenido .pasos-a__linea .hor-line 
     border-top-color: #FB8C00
@@ -465,11 +494,13 @@
     border-left-color: #FB8C00
 .pasos-a__linea__esquina__linea
   border-radius: 0
+
 //MODIFICAR ACORDEON//
 .tarjeta--azul 
   background-color: #F6F6F6
 .tarjeta--azul.acordeon__activo
   background-color: #EBEBEB
+
 //MODIFICA SLYDER//
 .slyder-a__bullets__item
   background-color: #636363
@@ -485,5 +516,12 @@
   background-image: url("../assets/componentes/arrow2.svg")
   transform: rotate(90deg)
   background-color: #1565C0
-
-  
+.slyder-a__tipo-b 
+  @media screen and ( max-width: 420px  )
+    bottom: 24px
+    justify-content: space-evenly
+//MODIFICAR BLOQUE TEXTO A//
+.bloque-texto-a:before
+  @media screen and (max-width: 420px)
+    top: 44%
+    left: 0

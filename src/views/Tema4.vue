@@ -8,15 +8,15 @@
       h1 Estrategias de CRM 
     
     .row.mb-5
-      .col-12.col-md-4
+      .col-12.col-md-4.mb-3.mb-md-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema4/t4-1.svg', alt='Texto que describa la imagen')
-      .col-12.col-md-8
+      .col-12.col-md-8(data-aos="fade-left")
         p CRM, siglas en inglés de “Gestión de las Relaciones con los Clientes”, hace referencia a un software que se encarga de hacer el registro de información de todas aquellas personas que hacen parte de los procesos empresariales, entre ellos: clientes, empleados, proveedores y usuarios, suministrando las bases de datos de cada uno de los anteriores, agrupándolos de acuerdo con sus roles; estos datos se almacenarán en la nube, facilitando su actualización en tiempo real, con el fin de tenerlos presentes para una acertada toma de decisiones al momento de ejecutar una acción determinada.
         .row
-          .col-12.col-md-1.mb-3.mb-md-0
+          .col-12.col-md-1
             figure
-              img(src='@/assets/componentes/btv.svg', alt='Texto que describa la imagen')
+              img.d-none.d-md-flex(src='@/assets/componentes/btv.svg', alt='Texto que describa la imagen')
           .col-12.col-md-11
             p.text-bold El principal objetivo de un CMR es el de tener a la mano toda la información de los clientes, colaboradores y usuarios, con el fin de optimizar las tareas del producto multimedia, ya que al contar con esta herramienta se puede tener información accesible de todas las interacciones que realiza el usuario con el producto, de tal manera que con estos datos recopilados se puedan hacer mejoras para lograr una experiencia de usuario satisfactoria.
           .tarjeta.bgr_2.p-3.mb-5
@@ -51,7 +51,7 @@
 
     .row.mb-5
       .col-12.col-md-8.d-flex.align-items-center(data-aos="fade-left")
-        ul.lista-ul--color.lista-ul--separador.ps-4
+        ul.lista-ul--color.lista-ul--separador.ps-md-4
           li
             i.fas.fa-check-circle.trans
             | Se puede tener un control interno de los datos de interacción del usuario con el producto multimedia, facilitando su organización.
@@ -87,10 +87,10 @@
       h2 4.2 Herramientas CRM para emprendedores, autónomos y empresas
     
     .row.mb-5
-      .col-12.col-md-9
+      .col-12.col-md-9.mb-3.mb-md-0(data-aos="fade-right")
         .bg_grad-05
           p Después de comprender la importancia de un CRM y el valor agregado que puede generar a una organización, emprendimiento o pyme, se entiende que es un software de gestión, donde la principal estrategia es la interacción entre clientes y empresarios y todo el contenido anteriormente estudiado se hará una introducción de cuáles son los mejores softwares del mercado actualmente, con la gran ventaja de ser gratuitos al público en general, y soportados tecnológicamente en la nube lo que permite su acceso y registro desde cualquier entorno, desde un ordenador, Tablet o dispositivo móvil, encontrando allí una información determinada de una organización y todo lo que esta conlleva en todos sus ámbitos.
-      .col-12.col-md-3
+      .col-12.col-md-3(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema4/t4-5.svg', alt='Texto que describa la imagen')
     
@@ -102,10 +102,10 @@
         span Cabe resaltar que en este punto se hablarán de los softwares más relevantes del mercado dando un breve concepto, recalcando que para poder realizar una práctica sólo requiere ser puesto en marcha y conocer los diversos sistemas que un CRM puede operar, de igual forma se da claridad que no se mencionara un escalafón de CRM, es decir cuál puede ser el mejor, porque sencillamente se adaptan a las necesidades del uso que se le otorgue por parte del usuario. 
         span.colr_3.text-bold Por tanto, a continuación, se hará referencia de cada uno de ellos:
     
-    .tarjeta.bgr_12.p-4
+    .tarjeta.bgr_12.p-md-4(data-aos="zoom-in")
       SlyderA(tipo="b")
         .row.p-4
-          .col-12.col-md-3
+          .col-12.col-md-3.mb-3.mb-md-0
             figure
               img(src='@/assets/curso/tema4/t4-6.png', alt='Texto que describa la imagen')
           .col-12.col-md-9.d-flex.align-items-center.trans_8
@@ -113,7 +113,7 @@
               h3 HUBSPOT CRM
               p.mb-0 Sus principales características es que es compatible con Gmail y su Plugin para Google Chrome permite tener una lista indefinida de contactos actualizados, la programación de tareas y correos electrónicos, interfaz con aplicaciones de CRM para dispositivos móviles y su software está determinado para el idioma español, es un sistema de fácil uso.
         .row.p-4
-          .col-12.col-md-3
+          .col-12.col-md-3.mb-3.mb-md-0
             figure
               img(src='@/assets/curso/tema4/t4-7.png', alt='Texto que describa la imagen')
           .col-12.col-md-9.d-flex.align-items-center.trans_8
@@ -121,7 +121,7 @@
               h3 ZOHO CRM <em>ONLINE</em>
               p.mb-0 Sus principales atributos son la gestión de oportunidades, cliente – empresa, empresa – empleados, empresa – consumidores, otra de sus características especiales es la gestión y actualización de contactos en tiempo real, interfaz de usuario para aplicaciones de CMR Móvil para Android y iOS, permite analizar a cada uno de los clientes potenciales y finales, su <em>software</em> está determinado para el idioma español.
         .row.p-4
-          .col-12.col-md-3
+          .col-12.col-md-3.mb-3.mb-md-0
             figure
               img(src='@/assets/curso/tema4/t4-8.png', alt='Texto que describa la imagen')
           .col-12.col-md-9.d-flex.align-items-center.trans_8
@@ -129,7 +129,7 @@
               h3 <em>STREAK</em> (PERFECTA PARA EMPRENDEDORES)
               p.mb-0 Este CRM trabaja de la mano con Gmail. Y es una gran ventaja, puesto que permite articular acciones de su oficio determinado desde su correo electrónico de Google lo que facilita ser utilizado desde cualquier dispositivo u ordenador, puede generar un filtro de ventas el cual es supervisado de acuerdo con el proceso que se defina por parte del usuario, tiene un espacio adecuado (cajas, más conocido con este término) de almacenamiento para clientes, de igual forma puede supervisar clientes prospectos y cómo se comunican entre sí, compatible con aplicaciones móviles, a diferencia de los 2 anteriores sistemas CRM, streak está determinado de fábrica en idioma inglés; sin embargo, contiene tutoriales los cuales hacen que su interfaz sea de forma rápida y fácil.
         .row.p-4
-          .col-12.col-md-3
+          .col-12.col-md-3.mb-3.mb-md-0
             figure
               img(src='@/assets/curso/tema4/t4-9.png', alt='Texto que describa la imagen')
           .col-12.col-md-9.d-flex.align-items-center.trans_8
@@ -137,7 +137,7 @@
               h3 WIWINK CRM
               p.mb-0 Su fuerte por así decirlo es que es un <em>software</em> de ventas y su control de <em>marketing</em>, sin descuidar a sus clientes y su respectiva facturación, maneja una relación de cien registros de clientes por organización esto lo hace robusta a la hora de determinar con cuál sistema CRM empezar a gestionar en un mercado objetivo, de igual a diario registra labores, reuniones y oportunidades de negocio, desarrolla un modelo de negocio donde la mayoría de sus servicios son gratuitos y una pequeña parte genera un costo (<em>freemium</em>), cuenta con un moderno diseño de interfaz.
         .row.p-4
-          .col-12.col-md-3
+          .col-12.col-md-3.mb-3.mb-md-0
             figure
               img(src='@/assets/curso/tema4/t4-10.png', alt='Texto que describa la imagen')
           .col-12.col-md-9.d-flex.align-items-center.trans_8
@@ -145,7 +145,7 @@
               h3 MACROGES CRM
               p.mb-0 Su principal característica es que es un <em>software</em> de facturación (50 facturas anuales sin costo) muy útil para los emprendedores, integra todo en un solo componente, su modelo de negocio es un (<em>freemium</em>), su interfaz se asemeja mucho a un calendario en el cual se tiene el control total de los clientes y sus movimientos en tiempo real, es de fácil manipulación, su versión se trabajó está en español, finalmente cuenta con un disco exclusivo de almacenamiento.
         .row.p-4
-          .col-12.col-md-3
+          .col-12.col-md-3.mb-3.mb-md-0
             figure
               img(src='@/assets/curso/tema4/t4-11.png', alt='Texto que describa la imagen')
           .col-12.col-md-9.d-flex.align-items-center.trans_8
@@ -153,7 +153,7 @@
               h3 ESPO CRM
               p.mb-0 Se caracteriza por qué se puede instalar en cualquier equipo tecnológico, ya que es un software de código abierto, lo que hace que el usuario es dueño de los datos e información registrada, en tiempo real, al ser un <em>software</em> de CA, su programación es sencilla y su interfaz de usuario es simple pero muy apropiada para ejecutar una acción determinada.
         .row.p-4
-          .col-12.col-md-3
+          .col-12.col-md-3.mb-3.mb-md-0
             figure
               img(src='@/assets/curso/tema4/t4-12.png', alt='Texto que describa la imagen')
           .col-12.col-md-9.d-flex.align-items-center.trans_8
@@ -201,22 +201,22 @@
       h2 4.4 Informes de resultados de las pruebas CRM
     
     .row.mb-5
-      .col-12.col-md-4
+      .col-12.col-md-4.mb-3.mb-md-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema4/t4-17.svg', alt='Texto que describa la imagen')
-      .col-12.col-md-8
+      .col-12.col-md-8(data-aos="fade-left")
         p Al momento de incorporar un CRM en un entorno organizativo empresarial inmediatamente toda acción realizada se convierte en datos, lo cual permitirá realizar una evaluación pertinente que a futuro optimizará procesos de intervención entre clientes, compradores y usuarios de un sistema determinado aportando una visión futurista en el entorno comercial.
         .row
           .col-12.col-md-1.mb-3.mb-md-0
             figure
-              img(src='@/assets/componentes/btv.svg', alt='Texto que describa la imagen')
+              img.d-none.d-md-flex(src='@/assets/componentes/btv.svg', alt='Texto que describa la imagen')
           .col-12.col-md-11
             p Resulta muy útil hacer informes con un sistema CRM (puede personalizarse de acuerdo al gusto del usuario con la interfaz), ya que estos pueden desarrollarse automáticamente, permitiendo un análisis preciso de datos obtenidos, en rangos, en espacios de tiempo diferentes de acuerdo con la información solicitada, de igual forma la herramienta permite encontrar los informes de forma organizada y con la posibilidad de exportarlos a un programa de presentación, como PowerPoint o Excel, es importante recalcar que los informes se pueden ejecutar de forma rápida y fácil.
     
-    .cajon.bgr.p-4.mb-5
+    .cajon.bgr.p-4.mb-5(data-aos="flip-up")
       p.mb-0 Básicamente un informe CRM es la forma de almacenar los datos y ordenarlos, permitiendo que el entorno diario del negocio esté listo para el día a día del negocio está listo para mercados, compradores y proveedores para el departamento de marketing. Se encuentran:
     
-    .tarjeta.bgr_12.p-4.mb-5
+    .tarjeta.bgr_12.p-md-4.mb-5(data-aos="zoom-out")
       SlyderA(tipo="b")
         .row.p-5.bgr_13
           .col-12.col-md-9.d-flex.align-items-center
@@ -254,7 +254,7 @@
     .row.mb-5.justify-content-center(data-aos="flip-down")
         .col-12.col-md-10
           .row  
-            .col-12.col-md-2
+            .col-12.col-md-2.mb-3.mb-md-0
               figure.trans_1.d-flex.justify-content-center
                 img.img120(src='@/assets/curso/tema4/t4-21.png', alt='Texto que describa la imagen')
             .col-12.col-md-10.d-flex.align-items-center

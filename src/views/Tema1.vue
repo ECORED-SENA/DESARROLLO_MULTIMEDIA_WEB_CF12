@@ -68,7 +68,7 @@
           img(src='@/assets/curso/tema1/t1-8.svg', alt='Texto que describa la imagen')
     
     .row.mb-5
-      .col-12.col-md-4(data-aos="fade-right")
+      .col-12.col-md-4.mb-3.mb-md-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema1/t1-9.svg', alt='Texto que describa la imagen')
       .col-12.col-md-8(data-aos="fade-left")
@@ -76,7 +76,7 @@
         .row
           .col-12.col-md-1.mb-3.mb-md-0d
             figure
-              img(src='@/assets/curso/tema1/t1-10.svg', alt='Texto que describa la imagen')
+              img.d-none.d-md-flex(src='@/assets/curso/tema1/t1-10.svg', alt='Texto que describa la imagen')
           .col-12.col-md-11.mb-5
             p Cuando el proyecto multimedia es un sitio web se recomienda realizar la evaluación en su etapa más temprana, ojalá cuando se tenga el prototipo, ya que cuanto más rápido se detecten y corrijan los errores, menos costoso será rediseñar. A continuación, se describe una técnica de evaluación: 
           .tarjeta.bgr_2.p-3.mb-5
@@ -125,7 +125,7 @@
     figure.position-relative.mb-5(data-aos="zoom-in-up")
       img(src='@/assets/curso/tema1/t1-13.png', alt='Texto que describa la imagen')
       .row.justify-content-center
-        .col-10
+        .col-11.col-md-10
           .bgr_3.p-4
             p.m-0 Este es un conjunto de métodos de evaluación que se basa en el juicio de los expertos que se enfocan en la interfaz del usuario (UI) Recuérdese que la UI es el punto de interacción y comunicación usuario – dispositivo, que incluye aspectos de visualización como la pantalla, teclado, <em>mouse</em>, entre otros. Esto quiere decir que los criterios que se evalúan tienen que ver con elementos específicos de las interfaces o pantallas que interactúan con el usuario final. Dentro de este método se encuentran las siguientes técnicas:
     
@@ -133,7 +133,7 @@
 
     p Consiste en el análisis de la interfaz con la cual interactúa el usuario para determinar si responde a los principios de usabilidad. Cada principio corresponde a una “H” en la heurística y corresponden a:
 
-    .row.mb-5
+    .row.mb-3.mb-md-5
       .col-12.col-md-5.mb-3.mb-md-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema1/t1-14.svg', alt='Texto que describa la imagen')
@@ -146,21 +146,21 @@
           p(numero="H5" titulo="Prevención de errores") Se deben dar instrucciones claras a los usuarios sobre cómo manejar el producto y las acciones que deben realizar para evitar su mal uso y posteriormente el abandono, debido a los errores que puede arrojar.
           
     .row.mb-5
-      .col-12.col-md-7.mb-3.mb-md-0(data-aos="fade-left")
+      .col-12.col-md-7.mb-3.mb-md-0.order-2.order-md-1(data-aos="fade-left")
         LineaTiempoD.color-acento-botones
           p.text-small(numero="H6" titulo=" Recordación") El producto multimedia debe proporcionar toda la información posible en aquellos momentos donde el usuario necesita recordar los detalles claves que le permitan confirmar la decisión que está a punto de tomar.
           p.text-small(numero="H7" titulo="Flexibilidad y eficiencia de uso") Se refiere a la capacidad de utilización del producto independientemente del tipo de usuario; es decir si a este se le facilita el uso de las herramientas tecnológicas o si por el contrario no le es sencillo ni familiar hacerlo.
           p.text-small(numero="H8" titulo="Diseño minimalista") Es importante no saturar de información al usuario del producto, mostrándole contenido innecesario que lo distraiga y lo desvíe del objetivo de utilización del producto. 
           p.text-small(numero="H9" titulo="Reconocer y corregir errores") Proporciona información al usuario de lo que está generando errores en la utilización del producto multimedia, y le brinda recomendaciones de las acciones que puede realizar para un buen uso del sistema.
           p.text-small(numero="H10" titulo="Ayuda y documentación") Se deben detectar las dudas más comunes de los usuarios cuando está usando el producto multimedia e incluir la información necesaria para que él mismo pueda encontrar la manera de resolverlas. De esta forma el producto se hace auto gestionable.
-      .col-12.col-md-5(data-aos="fade-right")
+      .col-12.col-md-5.order-1.order-md-2.mb-3.mb-md-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema1/t1-15.svg', alt='Texto que describa la imagen')
     
     .row.mb-5.justify-content-center(data-aos="flip-down")
       .col-12.col-md-10
         .row  
-          .col-12.col-md-2
+          .col-12.col-md-2.mb-3.mb-md-0
             figure.trans_1.d-flex.justify-content-center
               img.img120(src='@/assets/curso/tema1/t1-16.png', alt='Texto que describa la imagen')
           .col-12.col-md-10.d-flex.align-items-center
@@ -197,40 +197,40 @@
         p.mb-5 Igualmente se pueden incluir principios de escalabilidad que en el Marco de la Junta de Andalucía (s.f.) se definen como buenas prácticas; las cuales corresponde a la numeración heurística que sigue: 
 
       .row.mb-5
-        .col-12.col-md-5(data-aos="fade-right")
+        .col-12.col-md-5.mb-3.mb-md-0(data-aos="fade-right")
           figure
             img(src='@/assets/curso/tema1/t1-25.svg', alt='Texto que describa la imagen')
         .col-12.col-md-7(data-aos="fade-left")
-          .tarjeta.bgr_5.p-4.mb-5
+          .tarjeta.bgr_5.p-0.p-md-4.mb-5
             SlyderA(tipo="b")
               div.position-relative.p-5
-                img.trans_2(src='@/assets/curso/tema1/t1-26.svg', alt='Texto que describa la imagen')
+                img.trans_9(src='@/assets/curso/tema1/t1-26.svg', alt='Texto que describa la imagen')
                 h3 Funcionamiento en modo asincrónico
                 p.mb-0 Una manera de lograr la escalabilidad es que las operaciones y funciones del producto multimedia se ejecuten de manera asincrónica, es decir que dos o más procesos se pueden realicen al mismo tiempo y se van liberando a medida que vayan terminando su ejecución. Por ejemplo cuando el usuario solicita dos servicios de la web, el sistema libera el que pueda ejecutarse primero de acuerdo con los recursos para enseguida liberar el segundo.
               div.position-relative.p-5
-                img.trans_2(src='@/assets/curso/tema1/t1-27.svg', alt='Texto que describa la imagen')
+                img.trans_9(src='@/assets/curso/tema1/t1-27.svg', alt='Texto que describa la imagen')
                 .row.position-relative
                   .col-md-9.mb-4.mb-md-0
                     h3 Ordena el uso de los recursos
                     p.mb-0 El uso de los recursos debe programarse de tal forma que los proceso con acciones más demandantes sean los últimos que utilicen los recursos y los liberen para que estén disponibles para otra tarea que solicite el usuario.
                   .col-md-3.d-flex.align-items-center
-                    figure.d-flex.align-items-center
-                      img(src='@/assets/curso/tema1/t1-31.svg', alt='Texto que describa la imagen')
+                    figure.d-flex.align-items-center.justify-content-center
+                      img.img130(src='@/assets/curso/tema1/t1-31.svg', alt='Texto que describa la imagen')
               div.position-relative.p-5
-                img.trans_2(src='@/assets/curso/tema1/t1-28.svg', alt='Texto que describa la imagen')
+                img.trans_9(src='@/assets/curso/tema1/t1-28.svg', alt='Texto que describa la imagen')
                 h3 Operaciones conmutables
                 p.mb-0 Son operaciones que se pueden aplicar en cualquier orden y entregan el mismo resultado, esto evita que las respuestas a los usuarios se retrasen por seguir un determinado proceso. Un ejemplo de este tipo de operaciones de conmutación también se puede llegar a tener en un servicio de alojamiento; cuando se agrupan varios servidores para prestar servicios en la web, si un cliente hace una petición que ingresa a uno de ellos y este falla por algún motivo, dicha petición puede ser resuelta por cualquiera de los servidores que estén en el grupo. Esta opción de escalabilidad puede incluir el proveedor de hosting (alojamiento) que contrate el usuario.
               div.position-relative.p-5
-                img.trans_2(src='@/assets/curso/tema1/t1-29.svg', alt='Texto que describa la imagen')
+                img.trans_9(src='@/assets/curso/tema1/t1-29.svg', alt='Texto que describa la imagen')
                 .row.position-relative
                   .col-md-9.mb-4.mb-md-0
                     h3 Aplicaciones intercambiables
                     p.mb-0 Se deben tener varios recursos que sean iguales para disponer de ellos, si hay más de un proceso que está necesitando del mismo recurso. Este busca el que esté libre para realizar la acción deseada. Si se trata del proceso de desarrollo del producto multimedia, se pueden tener líneas de código que se puedan intercambiar en varias aplicaciones para no tener que hacer varios módulos con las mismas instrucciones.
                   .col-md-3.d-flex.align-items-center
-                    figure
-                      img(src='@/assets/curso/tema1/t1-32.svg', alt='Texto que describa la imagen')
+                    figure.d-flex.align-items-center.justify-content-center
+                      img.img130(src='@/assets/curso/tema1/t1-32.svg', alt='Texto que describa la imagen')
               div.position-relative.p-5
-                img.trans_2(src='@/assets/curso/tema1/t1-30.svg', alt='Texto que describa la imagen')
+                img.trans_9(src='@/assets/curso/tema1/t1-30.svg', alt='Texto que describa la imagen')
                 h3 Recursos y actividades
                 p.mb-0 Se utiliza para vincular un conjunto de recursos a un proceso o carga de trabajo específica. Por ejemplo, un servidor agrupa determinados recursos para cuando los usuarios inician sesión de un sitio web y hacen otra cuando están interactuando de alguna manera con las funcionalidades de este.
 
@@ -259,7 +259,7 @@
     h4.mb-5.bgr_4.p-3.text-white(data-aos="fade-down-right") Técnica Recorrido Cognitivo
 
     .row.mb-5
-      .col-12.col-md-4(data-aos="fade-left")
+      .col-12.col-md-4.mb-3.mb-md-0(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/t1-34.svg', alt='Texto que describa la imagen')
       .col-12.col-md-8(data-aos="fade-right")
@@ -289,39 +289,39 @@
       .col-12.col-md-10
         PasosA.color-acento-contenido.mb-5.trans_3(tipo="n")
           .row
-            .col-md-9.mb-4.mb-md-0.d-flex.align-items-center
+            .col-md-9.mb-4.mb-md-0.d-flex.align-items-center.mb-3.mb-md-0
               p.mb-0 Seleccionar un conjunto de 6 a 10 usuarios que no conozcan la aplicación o el producto para que realicen el recorrido de la interfaz o estructura del producto. Se debe recordar que la interfaz es la pantalla o apariencia del producto. 
             .col-md-2
-              figure
-                img(src='@/assets/curso/tema1/t1-35.svg', alt='Texto que describa la imagen')
+              figure.d-flex.justify-content-center
+                img.img110(src='@/assets/curso/tema1/t1-35.svg', alt='Texto que describa la imagen')
           .row.justify-content-end
-            .col-md-2
-              figure
-                img(src='@/assets/curso/tema1/t1-36.svg', alt='Texto que describa la imagen')
+            .col-md-2.mb-3.mb-md-0
+              figure.d-flex.justify-content-center
+                img.img110(src='@/assets/curso/tema1/t1-36.svg', alt='Texto que describa la imagen')
             .col-md-9.mb-4.mb-md-0.d-flex.align-items-center
               p.mb-0 Seleccionar las tareas que contengan las funciones principales del producto y para cada una de ellas preparar un <em>wireframe</em> que contenga como encabezado el nombre de la tarea o función a evaluar y el objetivo. 
           .row
-            .col-md-9.mb-4.mb-md-0.d-flex.align-items-center
+            .col-md-9.mb-4.mb-md-0.d-flex.align-items-center.mb-3.mb-md-0
               p.mb-0 El experto debe documentar las tareas a evaluar con la secuencia de acciones correctas para compararlas con lo que los usuarios respondieron en la prueba. 
             .col-md-2
-              figure
-                img(src='@/assets/curso/tema1/t1-37.svg', alt='Texto que describa la imagen')
+              figure.d-flex.justify-content-center
+                img.img110(src='@/assets/curso/tema1/t1-37.svg', alt='Texto que describa la imagen')
           .row.justify-content-end
-            .col-md-2
-              figure
-                img(src='@/assets/curso/tema1/t1-38.svg', alt='Texto que describa la imagen')
+            .col-md-2.mb-3.mb-md-0
+              figure.d-flex.justify-content-center
+                img.img110(src='@/assets/curso/tema1/t1-38.svg', alt='Texto que describa la imagen')
             .col-md-9.mb-4.mb-md-0.d-flex.align-items-center
               p.mb-0 Se pueden incluir instrucciones y también preguntas en el <em>wireframe</em> referentes a las acciones que realizaría para llevar a cabo la tarea, para saber si hay algo confuso o para agregar alguna observación respecto a la estructura de la interfaz.
           .row
-            .col-md-9.mb-4.mb-md-0.d-flex.align-items-center
+            .col-md-9.mb-4.mb-md-0.d-flex.align-items-center.mb-3.mb-md-0
               p.mb-0 e.	Imprimir el <em>wireframe</em> para que cada participante lo diligencie de manera individual. Cada tarea para evaluar debe ocupar una hoja y ser diligenciada sin pasar a otra o al respaldo, para no tergiversar o malinterpretar lo que se quiere expresar respecto a la funcionalidad evaluada. 
             .col-md-2
-              figure
-                img(src='@/assets/curso/tema1/t1-39.svg', alt='Texto que describa la imagen')
+              figure.d-flex.justify-content-center
+                img.img110(src='@/assets/curso/tema1/t1-39.svg', alt='Texto que describa la imagen')
           .row.justify-content-end
-            .col-md-2
-              figure
-                img(src='@/assets/curso/tema1/t1-40.svg', alt='Texto que describa la imagen')
+            .col-md-2.mb-3.mb-md-0
+              figure.d-flex.justify-content-center
+                img.img110(src='@/assets/curso/tema1/t1-40.svg', alt='Texto que describa la imagen')
             .col-md-9.mb-4.mb-md-0.d-flex.align-items-center
               p.mb-0 Se debe realizar una sesión de retroalimentación con los participantes, ya que son estos los primeros que pueden evidenciar los posibles errores que presente la aplicación, aquí se debe retroalimentar las acciones ejecutadas pantalla por pantalla y las fallas que se presentan con el fin de ser corregidas y puestas en marcha, para el desarrollo de la aplicación 
             
@@ -342,20 +342,20 @@
     .row.mb-5.justify-content-center(data-aos="flip-down")
       .col-12.col-md-10
         .row  
-          .col-12.col-md-2.d-flex.align-items-center
+          .col-12.col-md-2.d-flex.align-items-center.mb-3.mb-md-0
             figure.trans_1.d-flex.justify-content-center
               img.img120(src='@/assets/curso/tema1/t1-16.png', alt='Texto que describa la imagen')
           .col-12.col-md-10.d-flex.align-items-center
             p.text-bold.mb-0 La mejor metodología para realizar esta técnica es teniendo la primera versión del producto terminado, aunque también se puede realizar sobre un <em>wireframe</em> de baja fidelidad, ya que esta técnica tiene que ver con la evaluación de la interfaz o espacio visual que contiene imágenes y objetos con los que interactúa usuario y no con las funcionalidades del producto. Lo que se hace es comparar la interfase con el estándar para verificar que se cumplan los parámetros.
     
     .row.mb-5
-      .col-12.col-md-4(data-aos="fade-left")
+      .col-12.col-md-4.mb-3.mb-md-0(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/t1-42.svg', alt='Texto que describa la imagen')
       .col-12.col-md-8.bg_grad-05(data-aos="fade-right")
         p Las alternativas de texto para contenido no textual, son las que trasmiten el objetivo o la función que realiza la imagen para que cuando el usuario esté interactuando con el producto sepa fácilmente lo que debe hacer. Entre los ejemplos que incluye el estándar está:
         .row.mb-3
-          .col-12.col-md-6
+          .col-12.col-md-6.mb-3.mb-md-0
             .bgr_6.p-4.h-100
               figure.mb-3
                 img.img70(src='@/assets/curso/tema1/t1-44.svg', alt='Texto que describa la imagen')
@@ -416,23 +416,57 @@
       div(titulo="Técnica de las Prestaciones")
         p Esta técnica se utiliza para medir aspectos del uso del producto, por ello se debe llevar a cabo sobre el prototipo o sobre el producto terminado de tal forma que el evaluador pueda visualizar el número de errores que arroja el aplicativo, o las percepciones de los usuarios frente a lo que el producto lo puede beneficiar, por lo que se considera una técnica cuantitativa y cualitativa.
         figure
-          img(src='@/assets/curso/tema1/t1-47.svg', alt='Texto que describa la imagen')
+          img.d-none.d-md-flex(src='@/assets/curso/tema1/t1-47.svg', alt='Texto que describa la imagen')
+        .row  
+          .col-12
+            img.d-flex.d-md-none(src='@/assets/curso/tema1/t1-47-1.svg', alt='Texto que describa la imagen')
+            img.d-flex.d-md-none(src='@/assets/curso/tema1/t1-47-2.svg', alt='Texto que describa la imagen')
+            img.d-flex.d-md-none(src='@/assets/curso/tema1/t1-47-3.svg', alt='Texto que describa la imagen')
+            img.d-flex.d-md-none(src='@/assets/curso/tema1/t1-47-4.svg', alt='Texto que describa la imagen')
+            img.d-flex.d-md-none(src='@/assets/curso/tema1/t1-47-5.svg', alt='Texto que describa la imagen')
+            img.d-flex.d-md-none(src='@/assets/curso/tema1/t1-47-6.svg', alt='Texto que describa la imagen')
+            img.d-flex.d-md-none(src='@/assets/curso/tema1/t1-47-7.svg', alt='Texto que describa la imagen')
+
       div(titulo="Técnica Pensar en voz alta")
         p Esta técnica se utiliza para conocer lo que piensan los usuarios cuando están interactuando con el aplicativo, determinando el proceso cognitivo que realizan cuando recorren el producto y lo están utilizando. Esta técnica ayuda al desarrollador a identificar la secuencia lógica del usuario y su terminología cuando está usando el aplicativo de tal manera que pueda traducir esto en líneas de código.
         figure
-          img(src='@/assets/curso/tema1/t1-48.svg', alt='Texto que describa la imagen') 
+          img.d-none.d-md-flex(src='@/assets/curso/tema1/t1-48.svg', alt='Texto que describa la imagen')
+        .row  
+          .col-12
+            img.d-flex.d-md-none(src='@/assets/curso/tema1/t1-48-1.svg', alt='Texto que describa la imagen') 
+            img.d-flex.d-md-none(src='@/assets/curso/tema1/t1-48-2.svg', alt='Texto que describa la imagen') 
+            img.d-flex.d-md-none(src='@/assets/curso/tema1/t1-48-3.svg', alt='Texto que describa la imagen') 
+            img.d-flex.d-md-none(src='@/assets/curso/tema1/t1-48-4.svg', alt='Texto que describa la imagen') 
       div(titulo="Técnica de Interacción constructiva")
         p Esta técnica se utiliza para conocer cómo varios usuarios pueden interactuar con el producto multimedia sin recibir ningún tipo e instrucción, sólo con la construcción de sus propios modelos mentales para usarlo. Aunque la mayor desventaja de esta técnica es que las personas tienen metodología de aprendizaje y formas de construcción muy diferentes, aspecto que puede dificultar establecer un patrón a seguir en la forma de usar el producto.
         figure
-          img(src='@/assets/curso/tema1/t1-49.svg', alt='Texto que describa la imagen') 
+          img.d-none.d-md-flex(src='@/assets/curso/tema1/t1-49.svg', alt='Texto que describa la imagen')
+        .row  
+          .col-12
+            img.d-flex.d-md-none(src='@/assets/curso/tema1/t1-49-1.svg', alt='Texto que describa la imagen') 
+            img.d-flex.d-md-none(src='@/assets/curso/tema1/t1-49-2.svg', alt='Texto que describa la imagen') 
+            img.d-flex.d-md-none(src='@/assets/curso/tema1/t1-49-3.svg', alt='Texto que describa la imagen') 
+            img.d-flex.d-md-none(src='@/assets/curso/tema1/t1-49-4.svg', alt='Texto que describa la imagen') 
       div(titulo="Técnica de Test retrospectivo")
         p Esta técnica se utiliza después de una sesión grabada con el usuario que ha utilizado el producto multimedia. Se dispone al usuario para que vea la grabación y se detenga en los puntos que considere ampliar respecto del funcionamiento, resaltando los aspectos de uso positivos o negativos. La mayor desventaja de esta técnica es que suele tomar más tiempo que las demás si son varios usuarios los que la deben realizar.
         figure
-          img(src='@/assets/curso/tema1/t1-50.svg', alt='Texto que describa la imagen')
+          img.d-none.d-md-flex(src='@/assets/curso/tema1/t1-50.svg', alt='Texto que describa la imagen')
+        .row  
+          .col-12
+            img.d-flex.d-md-none(src='@/assets/curso/tema1/t1-50-1.svg', alt='Texto que describa la imagen') 
+            img.d-flex.d-md-none(src='@/assets/curso/tema1/t1-50-2.svg', alt='Texto que describa la imagen') 
+            img.d-flex.d-md-none(src='@/assets/curso/tema1/t1-50-3.svg', alt='Texto que describa la imagen') 
+            img.d-flex.d-md-none(src='@/assets/curso/tema1/t1-50-4.svg', alt='Texto que describa la imagen') 
       div(titulo="Técnica del Conductor")
         p En esta técnica el experto evaluador conduce al usuario en el recorrido de todas las funciones del producto, de tal manera que a este le quede claro la manera de usarlo. Es una técnica centrada en el usuario que no tiene experiencia con el tipo de producto multimedia que se está desarrollando, para descubrir las necesidades de información que este pueda tener. 
         figure
-          img(src='@/assets/curso/tema1/t1-51.svg', alt='Texto que describa la imagen') 
+          img.d-none.d-md-flex(src='@/assets/curso/tema1/t1-51.svg', alt='Texto que describa la imagen')
+        .row  
+          .col-12
+            img.d-flex.d-md-none(src='@/assets/curso/tema1/t1-51-1.svg', alt='Texto que describa la imagen') 
+            img.d-flex.d-md-none(src='@/assets/curso/tema1/t1-51-2.svg', alt='Texto que describa la imagen') 
+            img.d-flex.d-md-none(src='@/assets/curso/tema1/t1-51-3.svg', alt='Texto que describa la imagen') 
+            img.d-flex.d-md-none(src='@/assets/curso/tema1/t1-51-4.svg', alt='Texto que describa la imagen')  
 
     
     
