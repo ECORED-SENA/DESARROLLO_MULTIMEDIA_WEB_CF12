@@ -12,7 +12,7 @@
         figure
           img(src='@/assets/curso/tema4/t4-1.svg', alt='Texto que describa la imagen')
       .col-12.col-md-8(data-aos="fade-left")
-        p CRM, siglas en inglés de “Gestión de las Relaciones con los Clientes”, hace referencia a un software que se encarga de hacer el registro de información de todas aquellas personas que hacen parte de los procesos empresariales, entre ellos: clientes, empleados, proveedores y usuarios, suministrando las bases de datos de cada uno de los anteriores, agrupándolos de acuerdo con sus roles; estos datos se almacenarán en la nube, facilitando su actualización en tiempo real, con el fin de tenerlos presentes para una acertada toma de decisiones al momento de ejecutar una acción determinada.
+        p CRM, siglas en inglés de “Gestión de las Relaciones con los Clientes”, hace referencia a un <em>software</em> que se encarga de hacer el registro de información de todas aquellas personas que hacen parte de los procesos empresariales, entre ellos: clientes, empleados, proveedores y usuarios, suministrando las bases de datos de cada uno de los anteriores, agrupándolos de acuerdo con sus roles; estos datos se almacenarán en la nube, facilitando su actualización en tiempo real, con el fin de tenerlos presentes para una acertada toma de decisiones al momento de ejecutar una acción determinada.
         .row
           .col-12.col-md-1
             figure
@@ -27,7 +27,7 @@
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0.text-white
                     h3.mb-1 ¿Qué es un CRM y para qué sirve? Beneficios + Ejemplos
-                    p.mb-0 Estimado aprendiz, Se recomienda ver el siguiente video de qué es un CRM y por qué es tan útil para tu estrategia de marketing digital:
+                    p.mb-0 Estimado aprendiz, Se recomienda ver el siguiente video de qué es un CRM y por qué es tan útil para tu estrategia de <em>marketing</em> digital:
                   .col-sm-auto
                     a.boton.color-acento-botones.colr_2(href="https://www.youtube.com/watch?v=Ztr24-JBL2s" target="_blank")
                       span Ver video
@@ -74,12 +74,12 @@
           img(src='@/assets/curso/tema4/t4-4.svg', alt='Texto que describa la imagen')
       .col-12.col-md-8(data-aos="fade-left")
         LineaTiempoD.color-acento-botones
-          p(numero="1" titulo="Procesamiento de datos del marketing") Por intermedio de las herramientas del CRM pueden establecer diversas tareas secuenciales las cuales mejoren el trabajo del departamento de marketing.
+          p(numero="1" titulo="Procesamiento de datos del <em>marketing</em>") Por intermedio de las herramientas del CRM pueden establecer diversas tareas secuenciales las cuales mejoren el trabajo del departamento de <em>marketing</em>.
           p(numero="2" titulo="Automatización de ventas") El CRM hace una revisión constante de cómo los clientes interactúan con los servicios de la organización, un seguimiento de las interacciones con los clientes, de igual forma rastrea los períodos de ventas de usuarios predeterminados que pueden ser clientes potenciales.
           p(numero="3" titulo="Automatización del <em>Contact Center</em>") Esta herramienta es completamente útil, ya que puede hacer que la interfaz de usuario se corte facilitando la atención de servicio al cliente.
-          p(numero="4" titulo="Métodos de geolocalización") La gran mayoría de CRM contienen tecnología que diseña tareas de marketing geolocalizado, las cuales permiten realizar seguimiento de ventas en una ubicación determinada.
+          p(numero="4" titulo="Métodos de geolocalización") La gran mayoría de CRM contienen tecnología que diseña tareas de <em>marketing</em> geolocalizado, las cuales permiten realizar seguimiento de ventas en una ubicación determinada.
           p(numero="5" titulo="Seguimiento de recursos humanos en un CRM") Los métodos CRM facilitan realizar un seguimiento de cada uno de los empleados aprobando al departamento de gestión humana encargarse de forma eficaz de las funciones desempeñadas en cada área referente al personal de la empresa.
-          p(numero="6" titulo="Análisis") El sistema CRM permite examinar los datos con el fin de crear campañas de marketing seguras que permitan satisfacer a los clientes de forma oportuna.
+          p(numero="6" titulo="Análisis") El sistema CRM permite examinar los datos con el fin de crear campañas de <em>marketing</em> seguras que permitan satisfacer a los clientes de forma oportuna.
         
     separador
 
@@ -89,7 +89,7 @@
     .row.mb-5
       .col-12.col-md-9.mb-3.mb-md-0(data-aos="fade-right")
         .bg_grad-05
-          p Después de comprender la importancia de un CRM y el valor agregado que puede generar a una organización, emprendimiento o pyme, se entiende que es un software de gestión, donde la principal estrategia es la interacción entre clientes y empresarios y todo el contenido anteriormente estudiado se hará una introducción de cuáles son los mejores softwares del mercado actualmente, con la gran ventaja de ser gratuitos al público en general, y soportados tecnológicamente en la nube lo que permite su acceso y registro desde cualquier entorno, desde un ordenador, Tablet o dispositivo móvil, encontrando allí una información determinada de una organización y todo lo que esta conlleva en todos sus ámbitos.
+          p Después de comprender la importancia de un CRM y el valor agregado que puede generar a una organización, emprendimiento o pyme, se entiende que es un <em>software</em> de gestión, donde la principal estrategia es la interacción entre clientes y empresarios y todo el contenido anteriormente estudiado se hará una introducción de cuáles son los mejores <em>softwares</em> del mercado actualmente, con la gran ventaja de ser gratuitos al público en general, y soportados tecnológicamente en la nube lo que permite su acceso y registro desde cualquier entorno, desde un ordenador, Tablet o dispositivo móvil, encontrando allí una información determinada de una organización y todo lo que esta conlleva en todos sus ámbitos.
       .col-12.col-md-3(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema4/t4-5.svg', alt='Texto que describa la imagen')
@@ -99,7 +99,7 @@
         figure.d-flex.justify-content-center
           img.img30.d-none.d-md-flex(src='@/assets/componentes/btv.svg', alt='Texto que describa la imagen') 
       .col-12.col-md-11
-        span Cabe resaltar que en este punto se hablarán de los softwares más relevantes del mercado dando un breve concepto, recalcando que para poder realizar una práctica sólo requiere ser puesto en marcha y conocer los diversos sistemas que un CRM puede operar, de igual forma se da claridad que no se mencionara un escalafón de CRM, es decir cuál puede ser el mejor, porque sencillamente se adaptan a las necesidades del uso que se le otorgue por parte del usuario. 
+        span Cabe resaltar que en este punto se hablarán de los <em>softwares</em> más relevantes del mercado dando un breve concepto, recalcando que para poder realizar una práctica sólo requiere ser puesto en marcha y conocer los diversos sistemas que un CRM puede operar, de igual forma se da claridad que no se mencionara un escalafón de CRM, es decir cuál puede ser el mejor, porque sencillamente se adaptan a las necesidades del uso que se le otorgue por parte del usuario. 
         span.colr_3.text-bold Por tanto, a continuación, se hará referencia de cada uno de ellos:
     
     .tarjeta.bgr_12.p-md-4(data-aos="zoom-in")
@@ -111,7 +111,7 @@
           .col-12.col-md-9.d-flex.align-items-center.trans_8
             div
               h3 HUBSPOT CRM
-              p.mb-0 Sus principales características es que es compatible con Gmail y su Plugin para Google Chrome permite tener una lista indefinida de contactos actualizados, la programación de tareas y correos electrónicos, interfaz con aplicaciones de CRM para dispositivos móviles y su software está determinado para el idioma español, es un sistema de fácil uso.
+              p.mb-0 Sus principales características es que es compatible con Gmail y su Plugin para Google Chrome permite tener una lista indefinida de contactos actualizados, la programación de tareas y correos electrónicos, interfaz con aplicaciones de CRM para dispositivos móviles y su <em>software</em> está determinado para el idioma español, es un sistema de fácil uso.
         .row.p-4
           .col-12.col-md-3.mb-3.mb-md-0
             figure
@@ -151,7 +151,7 @@
           .col-12.col-md-9.d-flex.align-items-center.trans_8
             div
               h3 ESPO CRM
-              p.mb-0 Se caracteriza por qué se puede instalar en cualquier equipo tecnológico, ya que es un software de código abierto, lo que hace que el usuario es dueño de los datos e información registrada, en tiempo real, al ser un <em>software</em> de CA, su programación es sencilla y su interfaz de usuario es simple pero muy apropiada para ejecutar una acción determinada.
+              p.mb-0 Se caracteriza por qué se puede instalar en cualquier equipo tecnológico, ya que es un <em>software</em> de código abierto, lo que hace que el usuario es dueño de los datos e información registrada, en tiempo real, al ser un <em>software</em> de CA, su programación es sencilla y su interfaz de usuario es simple pero muy apropiada para ejecutar una acción determinada.
         .row.p-4
           .col-12.col-md-3.mb-3.mb-md-0
             figure
@@ -178,13 +178,13 @@
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="zoom-in-up")
       .row(titulo="Ejemplo de un <em>contact center</em>")
         .col-12.col-md-8.d-flex.align-items-center
-          p Por lo general sistematizar el CRM de una organización depende del área de marketing y ventas, y en muchos casos por los empleados (agentes) de algún centro de atención especializado de un tema en particular, quienes consiguen y fidelizan clientes potenciales y constantemente actualizan la información de cada uno de ellos, hacen seguimientos por intermedio de llamadas las cuales realiza el servicio de soporte técnico, con el fin de estar constantemente actualizados de sus clientes, queriendo brindar experiencias diversas de acuerdo a las necesidades de los usuarios registrados en las bases de datos.
+          p Por lo general sistematizar el CRM de una organización depende del área de <em>marketing</em> y ventas, y en muchos casos por los empleados (agentes) de algún centro de atención especializado de un tema en particular, quienes consiguen y fidelizan clientes potenciales y constantemente actualizan la información de cada uno de ellos, hacen seguimientos por intermedio de llamadas las cuales realiza el servicio de soporte técnico, con el fin de estar constantemente actualizados de sus clientes, queriendo brindar experiencias diversas de acuerdo a las necesidades de los usuarios registrados en las bases de datos.
         .col-12.col-md-4
           figure
             img(src='@/assets/curso/tema4/t4-14.png', alt='Texto que describa la imagen')   
       .row(titulo="Ejemplo Social CRM")
         .col-12.col-md-8.d-flex.align-items-center
-          p Sin duda alguna este escenario es el más concurrido por casi todas las personas que cuentan con un dispositivo móvil y un ordenador, se trata de las redes sociales, con las cuales se pueden generar oportunidades de negocio, por intermedio de las aplicaciones como WhatsApp, Facebook, Twitter y LinkedIn, estos escenarios de comercio se generan a través de foros los cuales son abiertos y permiten a los clientes (población objetivo) generar experiencias (marcas) e interacciones de acuerdo con algún tipo de artículo y su comercialización, todo este escenario se realiza por intermedio de conversaciones en redes sociales, por este medio se fidelizan y caracterizan los clientes de acuerdo a la satisfacción que el producto adquirido ofrece al comprador, por este medio se desarrollan diversas estrategias de marketing.
+          p Sin duda alguna este escenario es el más concurrido por casi todas las personas que cuentan con un dispositivo móvil y un ordenador, se trata de las redes sociales, con las cuales se pueden generar oportunidades de negocio, por intermedio de las aplicaciones como WhatsApp, Facebook, Twitter y LinkedIn, estos escenarios de comercio se generan a través de foros los cuales son abiertos y permiten a los clientes (población objetivo) generar experiencias (marcas) e interacciones de acuerdo con algún tipo de artículo y su comercialización, todo este escenario se realiza por intermedio de conversaciones en redes sociales, por este medio se fidelizan y caracterizan los clientes de acuerdo a la satisfacción que el producto adquirido ofrece al comprador, por este medio se desarrollan diversas estrategias de <em>marketing</em>.
         .col-12.col-md-4
           figure
             img(src='@/assets/curso/tema4/t4-15.png', alt='Texto que describa la imagen') 
@@ -214,7 +214,7 @@
             p Resulta muy útil hacer informes con un sistema CRM (puede personalizarse de acuerdo al gusto del usuario con la interfaz), ya que estos pueden desarrollarse automáticamente, permitiendo un análisis preciso de datos obtenidos, en rangos, en espacios de tiempo diferentes de acuerdo con la información solicitada, de igual forma la herramienta permite encontrar los informes de forma organizada y con la posibilidad de exportarlos a un programa de presentación, como PowerPoint o Excel, es importante recalcar que los informes se pueden ejecutar de forma rápida y fácil.
     
     .cajon.bgr.p-4.mb-5(data-aos="flip-up")
-      p.mb-0 Básicamente un informe CRM es la forma de almacenar los datos y ordenarlos, permitiendo que el entorno diario del negocio esté listo para el día a día del negocio está listo para mercados, compradores y proveedores para el departamento de marketing. Se encuentran:
+      p.mb-0 Básicamente un informe CRM es la forma de almacenar los datos y ordenarlos, permitiendo que el entorno diario del negocio esté listo para el día a día del negocio está listo para mercados, compradores y proveedores para el departamento de <em>marketing</em>. Se encuentran:
     
     .tarjeta.bgr_12.p-md-4.mb-5(data-aos="zoom-out")
       SlyderA(tipo="b")

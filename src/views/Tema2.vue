@@ -36,7 +36,7 @@
           ul.lista-ul--color.lista-ul--separador.ps-4
             li
               i.fas.fa-check-circle.trans
-              | Selección de heurísticas de acuerdo con su especialidad.
+              | Selección de heurísticas de acuerdo con su especialidad
             li
               i.fas.fa-check-circle.trans
               | Utilización de la métrica de evaluación, elaboración de las preguntas
@@ -73,7 +73,7 @@
                   p.mb-0 <b>H7.</b> Flexibilidad y eficiencia de uso
             .bgr_8.p-4.mb-2
               h3 Accesibilidad:
-              p.mb-0 <b>H12.</b> Operabilidad:
+              p.mb-0 <b>H12.</b> Operabilidad
             .bgr_8.p-4
               h3 Escalabilidad: 
               p.mb-0 <b>H15.</b> Funcionamiento en modo asincrónico
@@ -197,7 +197,7 @@
                 td.text-center 60%
               tr
                 td.text-center H15
-                td Después de realizado el pedido no se puede volver al menú a realizar otro si se desea.  
+                td Después de realizado el pedido no se puede volver al menú a realizar otro si se desea
                 td.text-center 1
                 td.text-center 20%
     
@@ -482,7 +482,7 @@
                     span Agradecer al participante por su tiempo
                   li.trans_7
                     i.fas.fa-caret-right.trans_6
-                    span Detener la grabación.
+                    span Detener la grabación
     
     h4.mb-5.bgr_4.p-3.text-white(data-aos="fade-down-right") Aplicación de la técnica de cuestionario
 
