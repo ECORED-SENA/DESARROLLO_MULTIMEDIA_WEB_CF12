@@ -19,8 +19,8 @@
     
     figure.mb-5(data-aos="zoom-in")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/p9LN6RymQEw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
     .row.mb-5
       .col-12.col-lg-8.mb-3.mb-lg-0(data-aos="fade-left")
         p Para que el diseño de las pruebas sea el adecuado, se debe identificar qué tipo de método se adapta al entorno donde se va a aplicar, los recursos técnicos con que se cuenta y el capital humano; que es quizá el más importante porque está configurado por los expertos y los usuarios que participarán en el proceso evaluativo. 
@@ -402,8 +402,8 @@
     
     figure(data-aos="zoom-in")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/fb-N134ko1A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        
     separador
 
     #t_1_3.titulo-segundo.color-acento-botones(data-aos="fade-right")
