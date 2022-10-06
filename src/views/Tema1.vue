@@ -8,10 +8,10 @@
       h1 Diseño de pruebas para la evaluación del proyecto multimedia
     
     .row.mb-5
-      .col-12.col-md-4.mb-3.mb-md-0(data-aos="fade-right")
+      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema1/t1-1.svg', alt='Texto que describa la imagen')
-      .col-12.col-md-8.bg_grad-01.d-flex.align-items-center(data-aos="fade-left")
+      .col-12.col-lg-8.bg_grad-01.d-flex.align-items-center(data-aos="fade-left")
         div
           p Dentro del contexto de los productos multimedia se debe incorporar la evaluación como un elemento más de desarrollo del proyecto. Esta consiste en el diseño de pruebas utilizando un conjunto de métodos y técnicas que sirven para determinar las condiciones de uso y funcionalidad del producto.
           .cajon.bgr.p-4
@@ -22,31 +22,31 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     .row.mb-5
-      .col-12.col-md-8.mb-3.mb-md-0(data-aos="fade-left")
+      .col-12.col-lg-8.mb-3.mb-lg-0(data-aos="fade-left")
         p Para que el diseño de las pruebas sea el adecuado, se debe identificar qué tipo de método se adapta al entorno donde se va a aplicar, los recursos técnicos con que se cuenta y el capital humano; que es quizá el más importante porque está configurado por los expertos y los usuarios que participarán en el proceso evaluativo. 
         .cajon.bgr.p-4
           p.mb-0 Así como se mencionó que la evaluación es un elemento más del producto, Lorés (2006) afirmó que debe hacer parte de su diseño y determinar su capacidad de usabilidad, accesibilidad y escalabilidad para que logre una experiencia de usuario satisfactoria. Apropiando lo que significan los anteriores términos que se han mencionado a lo largo del proceso formativo se tiene que:
-      .col-12.col-md-4(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/tema1/t1-2.svg', alt='Texto que describa la imagen')
+      .col-12.col-lg-4(data-aos="fade-right")
+        figure.d-flex.justify-content-center
+          img.img400(src='@/assets/curso/tema1/t1-2.svg', alt='Texto que describa la imagen')
 
     .row.mb-5
-      .col-12.col-md-3.mb-3.mb-md-0
+      .col-12.col-md-6.col-lg-3.mb-3.mb-lg-0
         .bgr_1.p-4.h-100
           figure.mb-3.d-flex.justify-content-center
             img.img110(src='@/assets/curso/tema1/t1-3.svg', alt='Texto que describa la imagen')
           p.mb-0.text-center <b>Usabilidad:</b> la ISO98 mencionada por Lorés (2006) define este término como la medida en la que un producto puede ser usado por los usuarios para lograr sus objetivos con efectividad y eficiencia en un contexto específico. 
-      .col-12.col-md-3.mb-3.mb-md-0
+      .col-12.col-md-6.col-lg-3.mb-3.mb-lg-0
         .bgr_1.p-4.h-100
           figure.mb-3.d-flex.justify-content-center
             img.img110(src='@/assets/curso/tema1/t1-4.svg', alt='Texto que describa la imagen')
           p.mb-0.text-center <b>Accesibilidad:</b> Fernández (2019) define este término como un adjetivo que significa de fácil acceso. Es el grado en el que cualquier persona más allá de sus capacidades físicas o técnicas pueden utilizar un objeto o servicio.
-      .col-12.col-md-3.mb-3.mb-md-0
+      .col-12.col-md-6.col-lg-3.mb-3.mb-lg-0
         .bgr_1.p-4.h-100
           figure.mb-3.d-flex.justify-content-center
             img.img110(src='@/assets/curso/tema1/t1-5.svg', alt='Texto que describa la imagen')
           p.mb-0.text-center <b>Escalabilidad:</b> según Blancarte (2017) “la escalabilidad es la capacidad del software para adaptarse a las necesidades de rendimiento a medida que el número de usuarios crece”. Igualmente puede disminuir la capacidad de respuesta de la base de datos por alta demanda.
-      .col-12.col-md-3
+      .col-12.col-md-6.col-lg-3
         .bgr_1.p-4.h-100
           figure.mb-3.d-flex.justify-content-center
             img.img110(src='@/assets/curso/tema1/t1-6.svg', alt='Texto que describa la imagen')
@@ -56,30 +56,30 @@
       p.mb-5 En el proceso de diseño y desarrollo de proyectos multimedia se debe evaluar permanentemente la experiencia del usuario al interactuar con el producto/servicio, de tal manera que llegue a tener plena satisfacción y de esta forma evitar rediseños que consumen más tiempo de lo planificado y mayores recursos de los presupuestados. Para lograr una UX satisfactoria entonces se debe evaluar la usabilidad, accesibilidad y escalabilidad del producto. 
     
     .row.mb-5
-      .col-12.col-md-1.d-flex.align-items-center(data-aos="flip-left")
+      .col-12.col-lg-1.d-flex.align-items-center(data-aos="flip-left")
         figure
-          img.img110.d-none.d-md-flex(src='@/assets/curso/tema1/t1-7.svg', alt='Texto que describa la imagen')
-      .col-12.col-md-11
+          img.img110.d-none.d-lg-flex(src='@/assets/curso/tema1/t1-7.svg', alt='Texto que describa la imagen')
+      .col-12.col-lg-11
         p.mb-0.text-bold Para el diseño de la prueba se aplican métodos y técnicas que se pueden clasificar en tres (3) categorías principalmente como se muestra en la siguiente figura de Lorés (2006):
     
     .row.mb-5.justify-content-center(data-aos="zoom-in-up")  
-      .col-12.col-md-8
+      .col-12.col-md-10.col-lg-8
         figure
           img(src='@/assets/curso/tema1/t1-8.svg', alt='Texto que describa la imagen')
     
     .row.mb-5
-      .col-12.col-md-4.mb-3.mb-md-0(data-aos="fade-right")
+      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema1/t1-9.svg', alt='Texto que describa la imagen')
-      .col-12.col-md-8(data-aos="fade-left")
+          img.d-none.d-lg-flex(src='@/assets/curso/tema1/t1-9.svg', alt='Texto que describa la imagen')
+      .col-12.col-lg-8(data-aos="fade-left")
         p Es importante mencionar que la evaluación de los proyectos multimedia se puede realizar en dos contextos: uno es el espacio físico, el cual debe cumplir con todas la condiciones técnicas y tecnológicas para obtener resultados óptimos en el proceso, y el otro es un espacio natural donde el uso de la tecnología no es relevante y se reúnen evaluadores, desarrolladores, apoyos y usuarios para intercambiar opiniones en tiempo real. 
         .row
-          .col-12.col-md-1.mb-3.mb-md-0d
+          .col-auto.mb-3
             figure
-              img.d-none.d-md-flex(src='@/assets/curso/tema1/t1-10.svg', alt='Texto que describa la imagen')
-          .col-12.col-md-11.mb-5
+              img.d-none.d-lg-flex(src='@/assets/curso/tema1/t1-10.svg', alt='Texto que describa la imagen')
+          .col-12.col-lg-11.mb-3
             p Cuando el proyecto multimedia es un sitio web se recomienda realizar la evaluación en su etapa más temprana, ojalá cuando se tenga el prototipo, ya que cuanto más rápido se detecten y corrijan los errores, menos costoso será rediseñar. A continuación, se describe una técnica de evaluación: 
-          .tarjeta.bgr_2.p-3.mb-5
+          .tarjeta.bgr_2.p-3
             .row.justify-content-around.align-items-center
               .col-3.col-sm-2.col-lg-2.d-flex.align-items-center
                 img(src="@/assets/curso/tema1/t1-11.svg")
@@ -96,8 +96,8 @@
     p.mb-5 En el anterior video se observa la utilización de una técnica (heurística) para la evaluación de un sitio web y así mismo se explica a continuación, aspectos por tener en cuenta para que la interfaz (pantalla) cause una buena impresión a los usuarios:
 
     .row
-      .col-12.col-md-7.d-flex.align-items-center(data-aos="fade-left")
-        ul.lista-ul--color.lista-ul--separador.ps-4
+      .col-12.col-lg-7.d-flex.align-items-center(data-aos="fade-left")
+        ul.lista-ul--color.lista-ul--separador.ps-3
           li
             i.fas.fa-check-circle.trans
             | El contenido debe ser de fácil aprendizaje; es decir, disminuir los tiempos con los que cuenta un usuario para conocer y manipular una aplicación, para que su uso sea productivo y completo a la hora de su interfaz.
@@ -113,9 +113,9 @@
           li
             i.fas.fa-check-circle.trans
             | El usuario debe tener la capacidad de sintetizar, captar, observar y percibir si la aplicación en algún momento presenta cambios sustanciales dentro de la operación del sistema.
-      .col-12.col-md-5(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/tema1/t1-12.svg', alt='Texto que describa la imagen')
+      .col-12.col-lg-5(data-aos="fade-right")
+        figure.d-flex.justify-content-center
+          img.img420(src='@/assets/curso/tema1/t1-12.svg', alt='Texto que describa la imagen')
     
     separador
 
@@ -134,10 +134,10 @@
     p Consiste en el análisis de la interfaz con la cual interactúa el usuario para determinar si responde a los principios de usabilidad. Cada principio corresponde a una “H” en la heurística y corresponden a:
 
     .row.mb-3.mb-md-5
-      .col-12.col-md-5.mb-3.mb-md-0(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/tema1/t1-14.svg', alt='Texto que describa la imagen')
-      .col-12.col-md-7(data-aos="fade-left")
+      .col-12.col-lg-5.mb-3.mb-lg-0.order-2.order-lg-1(data-aos="fade-right")
+        figure.d-flex.justify-content-center
+          img.img450(src='@/assets/curso/tema1/t1-14.svg', alt='Texto que describa la imagen')
+      .col-12.col-lg-7.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="fade-left")
         LineaTiempoD.color-acento-botones
           p(numero="H1" titulo="Visibilidad del estado del sistema") El usuario debe recibir una retroalimentación del estado del producto en cada instante para saber qué pasa cuando interactúa con él, por ejemplo si está guardando, cargando, o si hay algún tipo de error.
           p(numero="H2" titulo="Visibilidad del estado del sistema") Se debe brindar al usuario toda la información necesaria para que no tenga dudas o cometa errores en la acción que va a realizar. 
@@ -146,46 +146,46 @@
           p(numero="H5" titulo="Prevención de errores") Se deben dar instrucciones claras a los usuarios sobre cómo manejar el producto y las acciones que deben realizar para evitar su mal uso y posteriormente el abandono, debido a los errores que puede arrojar.
           
     .row.mb-5
-      .col-12.col-md-7.mb-3.mb-md-0.order-2.order-md-1(data-aos="fade-left")
+      .col-12.col-lg-7.mb-3.mb-lg-0(data-aos="fade-left")
         LineaTiempoD.color-acento-botones
           p.text-small(numero="H6" titulo=" Recordación") El producto multimedia debe proporcionar toda la información posible en aquellos momentos donde el usuario necesita recordar los detalles claves que le permitan confirmar la decisión que está a punto de tomar.
           p.text-small(numero="H7" titulo="Flexibilidad y eficiencia de uso") Se refiere a la capacidad de utilización del producto independientemente del tipo de usuario; es decir si a este se le facilita el uso de las herramientas tecnológicas o si por el contrario no le es sencillo ni familiar hacerlo.
           p.text-small(numero="H8" titulo="Diseño minimalista") Es importante no saturar de información al usuario del producto, mostrándole contenido innecesario que lo distraiga y lo desvíe del objetivo de utilización del producto. 
           p.text-small(numero="H9" titulo="Reconocer y corregir errores") Proporciona información al usuario de lo que está generando errores en la utilización del producto multimedia, y le brinda recomendaciones de las acciones que puede realizar para un buen uso del sistema.
           p.text-small(numero="H10" titulo="Ayuda y documentación") Se deben detectar las dudas más comunes de los usuarios cuando está usando el producto multimedia e incluir la información necesaria para que él mismo pueda encontrar la manera de resolverlas. De esta forma el producto se hace auto gestionable.
-      .col-12.col-md-5.order-1.order-md-2.mb-3.mb-md-0(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/tema1/t1-15.svg', alt='Texto que describa la imagen')
+      .col-12.col-lg-5.mb-3.mb-lg-0(data-aos="fade-right")
+        figure.d-flex.justify-content-center
+          img.img450(src='@/assets/curso/tema1/t1-15.svg', alt='Texto que describa la imagen')
     
     .row.mb-5.justify-content-center(data-aos="flip-down")
       .col-12.col-md-10
         .row  
-          .col-12.col-md-2.mb-3.mb-md-0
+          .col-auto.mb-3.mb-md-0
             figure.trans_1.d-flex.justify-content-center
-              img.img120(src='@/assets/curso/tema1/t1-16.png', alt='Texto que describa la imagen')
-          .col-12.col-md-10.d-flex.align-items-center
+              img.ps-1(src='@/assets/curso/tema1/t1-16.png', alt='Texto que describa la imagen')
+          .col-12.col-md-8.col-lg-10.d-flex.align-items-center
             p.text-bold.mb-0 Con la técnica heurística también se puede diseñar las pruebas incluyendo para el análisis los principios de accesibilidad de la WCAG 2.0 (<em>Web Content Accessibility Guidelines</em>); estudiados anteriormente, pero para recordar se mencionan a continuación: 
     
     .row.mb-5
-      .col-12.col-md-3.mb-3.mb-md-0
+      .col-12.col-md-6.col-lg-3.mb-3.mb-lg-0
         .bgr_1.p-4.h-100
           figure.mb-3.d-flex.justify-content-center.position-relative
             img.img110(src='@/assets/curso/tema1/t1-17.svg', alt='Texto que describa la imagen')
             img.trans_2(src='@/assets/curso/tema1/t1-21.svg', alt='Texto que describa la imagen')
           p.mb-0.text-center <b>Perceptibilidad:</b> este principio se enfoca en asegurar que todo el contenido del producto puede ser comprendido por el usuario proporcionándole diferentes alternativas como texto, video o audio.
-      .col-12.col-md-3.mb-3.mb-md-0
+      .col-12.col-md-6.col-lg-3.mb-3.mb-lg-0
         .bgr_1.p-4.h-100
           figure.mb-3.d-flex.justify-content-center.position-relative
             img.img110(src='@/assets/curso/tema1/t1-18.svg', alt='Texto que describa la imagen')
             img.trans_2(src='@/assets/curso/tema1/t1-22.svg', alt='Texto que describa la imagen')
           p.mb-0.text-center <b>Operabilidad:</b> el producto debe proporcionar facilidad de interacción y navegación a los usuarios a través del mouse o el teclado. La interfaz o pantalla que se le coloque al usuario para acceder al producto multimedia deben permitirle ir al lugar que quiera.
-      .col-12.col-md-3.mb-3.mb-md-0
+      .col-12.col-md-6.col-lg-3.mb-3.mb-lg-0
         .bgr_1.p-4.h-100
           figure.mb-3.d-flex.justify-content-center.position-relative
             img.img110(src='@/assets/curso/tema1/t1-19.svg', alt='Texto que describa la imagen')
             img.trans_2(src='@/assets/curso/tema1/t1-23.svg', alt='Texto que describa la imagen')
           p.mb-0.text-center <b>Comprensibilidad:</b> el contenido del producto y la forma en que el usuario puede interactuar con él debe estar de acuerdo con su capacidad de entendimiento, sin importar el perfil o el nivel de formación que posea.
-      .col-12.col-md-3
+      .col-12.col-md-6.col-lg-3
         .bgr_1.p-4.h-100
           figure.mb-3.d-flex.justify-content-center.position-relative
             img.img110(src='@/assets/curso/tema1/t1-20.svg', alt='Texto que describa la imagen')
@@ -194,13 +194,13 @@
     
     .bg_grad-04
       .bg_grad-03
-        p.mb-5 Igualmente se pueden incluir principios de escalabilidad que en el Marco de la Junta de Andalucía (s.f.) se definen como buenas prácticas; las cuales corresponde a la numeración heurística que sigue: 
+        p.mb-3.mb-lg-5 Igualmente se pueden incluir principios de escalabilidad que en el Marco de la Junta de Andalucía (s.f.) se definen como buenas prácticas; las cuales corresponde a la numeración heurística que sigue: 
 
       .row.mb-5
-        .col-12.col-md-5.mb-3.mb-md-0(data-aos="fade-right")
-          figure
-            img(src='@/assets/curso/tema1/t1-25.svg', alt='Texto que describa la imagen')
-        .col-12.col-md-7(data-aos="fade-left")
+        .col-12.col-lg-5.mb-3.mb-lg-0.order-2.order-lg-1(data-aos="fade-right")
+          figure.d-flex.justify-content-center
+            img.img450(src='@/assets/curso/tema1/t1-25.svg', alt='Texto que describa la imagen')
+        .col-12.col-lg-7.order-1.order-lg-2(data-aos="fade-left")
           .tarjeta.bgr_5.p-0.p-md-4.mb-5
             SlyderA(tipo="b")
               div.position-relative.p-5
@@ -237,9 +237,9 @@
       h4.mb-5.bgr_4.p-3.text-white(data-aos="fade-down-right") Técnica recorrido de usabilidad plural
 
       .row.mb-5
-        .col-12.col-md-7(data-aos="fade-right")
-          p.mb-5 Esta técnica tiene como objetivo analizar las acciones que realizan tres categorías de usuarios cuando interactúan con el producto en determinadas tareas. Estas acciones son el recorrido o secuencia de actividades para lograr el resultado esperado, aplicado más que todo para medir la usabilidad y accesibilidad del producto. Es plural porque intervienen diferentes tipos de usuario a diferencia de la técnica heurística que la realizan los expertos solamente. Para la aplicación de esta técnica se deben realizar las siguientes acciones:
-          ul.lista-ul--color.lista-ul--separador.ps-4
+        .col-12.col-lg-7(data-aos="fade-right")
+          p.mb-3.mb-lg-5 Esta técnica tiene como objetivo analizar las acciones que realizan tres categorías de usuarios cuando interactúan con el producto en determinadas tareas. Estas acciones son el recorrido o secuencia de actividades para lograr el resultado esperado, aplicado más que todo para medir la usabilidad y accesibilidad del producto. Es plural porque intervienen diferentes tipos de usuario a diferencia de la técnica heurística que la realizan los expertos solamente. Para la aplicación de esta técnica se deben realizar las siguientes acciones:
+          ul.lista-ul--color.lista-ul--separador.ps-3
             li
               i.fas.fa-check-circle.trans
               span <b>Selección de participantes:</b> generalmente se seleccionan tres grupos de usuarios con perfiles diferentes que juegan un rol dentro del proyecto multimedia.
@@ -252,21 +252,21 @@
             li
               i.fas.fa-check-circle.trans
               span <b>Realización de la exposición:</b> cada categoría de usuario deberá exponer la secuencia de acciones que realizaría para llevar a cabo la tarea, después se debatirá para llegar a un consenso sobre el recorrido más sencillo.
-        .col-12.col-md-5(data-aos="fade-left")
-          figure
-            img(src='@/assets/curso/tema1/t1-33.svg', alt='Texto que describa la imagen')
+        .col-12.col-lg-5(data-aos="fade-left")
+          figure.d-flex.justify-content-center
+            img.img450(src='@/assets/curso/tema1/t1-33.svg', alt='Texto que describa la imagen')
     
     h4.mb-5.bgr_4.p-3.text-white(data-aos="fade-down-right") Técnica Recorrido Cognitivo
 
-    .row.mb-5
-      .col-12.col-md-4.mb-3.mb-md-0(data-aos="fade-left")
-        figure
-          img(src='@/assets/curso/tema1/t1-34.svg', alt='Texto que describa la imagen')
-      .col-12.col-md-8(data-aos="fade-right")
-        p.mb-5 Esta técnica evalúa qué tan fácil resulta para el usuario usar el producto multimedia a base de la exploración. Muchos usuarios prefieren recorrer el producto y probar sus funcionalidades que leer un manual, es por ello por lo que los aplicativos deben acercarse a la intuición y el pensamiento sobre la manera de actuar para lograr el objetivo. Esta técnica se lleva a cabo sobre un <em>wireframe</em> de baja fidelidad, corresponde a un boceto sencillo donde se bosqueja aspectos generales del producto multimedia sin entrar en el detalle de imágenes, contenido o color, utiliza solo escala de grises, se enfoca en la interacción del usuario y los elementos de diseño que utiliza son cuadrados, rectángulos, círculos, triángulos o líneas.
-        .tarjeta.bgr_2.p-3.mb-5
+    .row.mb-3.mb-lg-5
+      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="fade-left")
+        figure.d-flex.justify-content-center
+          img.img350(src='@/assets/curso/tema1/t1-34.svg', alt='Texto que describa la imagen')
+      .col-12.col-lg-8(data-aos="fade-right")
+        p.mb-3 Esta técnica evalúa qué tan fácil resulta para el usuario usar el producto multimedia a base de la exploración. Muchos usuarios prefieren recorrer el producto y probar sus funcionalidades que leer un manual, es por ello por lo que los aplicativos deben acercarse a la intuición y el pensamiento sobre la manera de actuar para lograr el objetivo. Esta técnica se lleva a cabo sobre un <em>wireframe</em> de baja fidelidad, corresponde a un boceto sencillo donde se bosqueja aspectos generales del producto multimedia sin entrar en el detalle de imágenes, contenido o color, utiliza solo escala de grises, se enfoca en la interacción del usuario y los elementos de diseño que utiliza son cuadrados, rectángulos, círculos, triángulos o líneas.
+        .tarjeta.bgr_2.p-3
           .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-2.d-flex.align-items-center
+            .col-auto.d-flex.align-items-center
               img(src="@/assets/curso/tema1/t1-11.svg")
             .col
               .row.justify-content-between.align-items-center
@@ -279,23 +279,23 @@
                     i.fas.fa-link
     
     .row.mb-5
-      .col-12.col-md-1
-        figure.d-flex.justify-content-center
-          img.img30.d-none.d-md-flex(src='@/assets/componentes/btv.svg', alt='Texto que describa la imagen') 
-      .col-12.col-md-11
+      .col-auto
+        figure.d-none.d-lg-flex
+          img(src='@/assets/componentes/btv.svg', alt='Texto que describa la imagen') 
+      .col-12.col-lg-11
         p Por intermedio del método del paseo cognitivo se logra demostrar si existen inconvenientes de usabilidad en un período real en el entorno, qué rutas de navegación fueron utilizadas por un usuario, de igual forma, se pueden detectar las variables que el usuario determina al momento de hacer un recorrido visual en cada página incluida en la elaboración de la prueba. Para llevar a cabo esta técnica se deben realizar las siguientes acciones:  
     
     .row.mb-5.justify-content-center(data-aos="zoom-in")
-      .col-12.col-md-10
+      .col-12.col-lg-10
         PasosA.color-acento-contenido.mb-5.trans_3(tipo="n")
           .row
             .col-md-9.mb-4.mb-md-0.d-flex.align-items-center.mb-3.mb-md-0
               p.mb-0 Seleccionar un conjunto de 6 a 10 usuarios que no conozcan la aplicación o el producto para que realicen el recorrido de la interfaz o estructura del producto. Se debe recordar que la interfaz es la pantalla o apariencia del producto. 
-            .col-md-2
+            .col-md-3
               figure.d-flex.justify-content-center
                 img.img110(src='@/assets/curso/tema1/t1-35.svg', alt='Texto que describa la imagen')
           .row.justify-content-end
-            .col-md-2.mb-3.mb-md-0
+            .col-md-3.mb-3.mb-md-0
               figure.d-flex.justify-content-center
                 img.img110(src='@/assets/curso/tema1/t1-36.svg', alt='Texto que describa la imagen')
             .col-md-9.mb-4.mb-md-0.d-flex.align-items-center
@@ -303,11 +303,11 @@
           .row
             .col-md-9.mb-4.mb-md-0.d-flex.align-items-center.mb-3.mb-md-0
               p.mb-0 El experto debe documentar las tareas a evaluar con la secuencia de acciones correctas para compararlas con lo que los usuarios respondieron en la prueba. 
-            .col-md-2
+            .col-md-3
               figure.d-flex.justify-content-center
                 img.img110(src='@/assets/curso/tema1/t1-37.svg', alt='Texto que describa la imagen')
           .row.justify-content-end
-            .col-md-2.mb-3.mb-md-0
+            .col-md-3.mb-3.mb-md-0
               figure.d-flex.justify-content-center
                 img.img110(src='@/assets/curso/tema1/t1-38.svg', alt='Texto que describa la imagen')
             .col-md-9.mb-4.mb-md-0.d-flex.align-items-center
@@ -315,11 +315,11 @@
           .row
             .col-md-9.mb-4.mb-md-0.d-flex.align-items-center.mb-3.mb-md-0
               p.mb-0 e.	Imprimir el <em>wireframe</em> para que cada participante lo diligencie de manera individual. Cada tarea para evaluar debe ocupar una hoja y ser diligenciada sin pasar a otra o al respaldo, para no tergiversar o malinterpretar lo que se quiere expresar respecto a la funcionalidad evaluada. 
-            .col-md-2
+            .col-md-3
               figure.d-flex.justify-content-center
                 img.img110(src='@/assets/curso/tema1/t1-39.svg', alt='Texto que describa la imagen')
           .row.justify-content-end
-            .col-md-2.mb-3.mb-md-0
+            .col-md-3.mb-3.mb-md-0
               figure.d-flex.justify-content-center
                 img.img110(src='@/assets/curso/tema1/t1-40.svg', alt='Texto que describa la imagen')
             .col-md-9.mb-4.mb-md-0.d-flex.align-items-center
@@ -328,31 +328,31 @@
     h4.mb-5.bgr_4.p-3.text-white(data-aos="fade-down-right") Técnica de Inspección de Estándares
 
     .row.mb-5
-      .col-12.col-md-8.bg_grad-05(data-aos="fade-right")
+      .col-12.col-lg-8.bg_grad-05(data-aos="fade-right")
         p esta técnica se aplica sobre todo para evaluar si la interfaz del usuario cumple con los estándares establecidos por la W3C; por lo tanto, se utiliza en usabilidad y accesibilidad. El experto en el estándar es el que evalúa minuciosamente el principio que se esté probando. 
         div.px-5.py-4.position-relative.bg_grad-06
           p un estándar es un requisito, regla o recomendación que se basa en la práctica y en principios que se han probado y al cual han llegado a un acuerdo los profesionales autorizados a nivel local, nacional e internacional. 
           p.text-bold.text-end.me-5 -Granollers (2014):
           img.pst(src='@/assets/componentes/com.svg', alt='Texto que describa la imagen')
           img.pst_1(src='@/assets/componentes/com.svg', alt='Texto que describa la imagen')
-      .col-12.col-md-4(data-aos="fade-left")
-        figure
-          img(src='@/assets/curso/tema1/t1-41.svg', alt='Texto que describa la imagen')
+      .col-12.col-lg-4(data-aos="fade-left")
+        figure.d-flex.justify-content-center
+          img.img350(src='@/assets/curso/tema1/t1-41.svg', alt='Texto que describa la imagen')
     
     .row.mb-5.justify-content-center(data-aos="flip-down")
       .col-12.col-md-10
         .row  
-          .col-12.col-md-2.d-flex.align-items-center.mb-3.mb-md-0
+          .col-auto.mb-3.mb-md-0
             figure.trans_1.d-flex.justify-content-center
-              img.img120(src='@/assets/curso/tema1/t1-16.png', alt='Texto que describa la imagen')
-          .col-12.col-md-10.d-flex.align-items-center
+              img.ps-1(src='@/assets/curso/tema1/t1-16.png', alt='Texto que describa la imagen')
+          .col-12.col-md-8.col-lg-10.d-flex.align-items-center
             p.text-bold.mb-0 La mejor metodología para realizar esta técnica es teniendo la primera versión del producto terminado, aunque también se puede realizar sobre un <em>wireframe</em> de baja fidelidad, ya que esta técnica tiene que ver con la evaluación de la interfaz o espacio visual que contiene imágenes y objetos con los que interactúa usuario y no con las funcionalidades del producto. Lo que se hace es comparar la interfase con el estándar para verificar que se cumplan los parámetros.
     
-    .row.mb-5
-      .col-12.col-md-4.mb-3.mb-md-0(data-aos="fade-left")
-        figure
-          img(src='@/assets/curso/tema1/t1-42.svg', alt='Texto que describa la imagen')
-      .col-12.col-md-8.bg_grad-05(data-aos="fade-right")
+    .row.mb-3.mb-lg-5
+      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="fade-left")
+        figure.d-flex.justify-content-center
+          img.img400(src='@/assets/curso/tema1/t1-42.svg', alt='Texto que describa la imagen')
+      .col-12.col-lg-8.bg_grad-05(data-aos="fade-right")
         p Las alternativas de texto para contenido no textual, son las que trasmiten el objetivo o la función que realiza la imagen para que cuando el usuario esté interactuando con el producto sepa fácilmente lo que debe hacer. Entre los ejemplos que incluye el estándar está:
         .row.mb-3
           .col-12.col-md-6.mb-3.mb-md-0
@@ -366,10 +366,10 @@
                 img.img70(src='@/assets/curso/tema1/t1-43.svg', alt='Texto que describa la imagen')
               p.mb-0 Descripción de los datos que representan la imagen
         .row  
-          .col-12.col-md-1
-            figure.d-flex.justify-content-center
-              img.img30.d-none.d-md-flex(src='@/assets/componentes/btv.svg', alt='Texto que describa la imagen') 
-          .col-12.col-md-11
+          .col-auto
+            figure
+              img.d-none.d-lg-flex(src='@/assets/componentes/btv.svg', alt='Texto que describa la imagen') 
+          .col-12.col-lg-11
             p.mb-0 En la anterior figura se observa cómo se puede representar la función de búsqueda de algún recurso, el cual puede hacerse mediante un icono que en este caso es una lupa o colocar el texto que representa la actividad que deseamos realice el usuario que en este caso es “Buscar”.
     
     .tarjeta.bgr_2.p-3

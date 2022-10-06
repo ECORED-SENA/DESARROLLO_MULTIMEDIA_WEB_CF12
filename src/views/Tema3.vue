@@ -20,19 +20,19 @@
       h4.mb-5.bgr_4.p-3.text-white(data-aos="fade-down-right") Objetivo de la prueba
 
       .row.mb-5
-        .col-12.col-md-8.mb-3.mb-md-0
+        .col-12.col-lg-8.mb-3.mb-lg-0
           p.mb-5 Lo primero que se debe incluir en el informe es el propósito que condujo a la aplicación de la evaluación, ya que hay muchos aspectos que se pueden medir en los productos multimedia o aplicativos informáticos en general y se debe especificar a cuál de ellos le apuntó la prueba realizada.
           h4.mb-5.bgr_4.p-3.text-white(data-aos="fade-down-right") Participante
           p En el informe se describen las características o competencias que deben cumplir los usuarios para la realización de la prueba, ya que estos deben ser seleccionados basados en ellas. Dichas características deben ser similares y el número de participantes que se relacione en el informe no debe pasar de ocho (8), ya que como dice Nielsen citado por Vega (s.f.), entre más usuarios participen más repetición de resultados se obtendrá. Hay pruebas que solo son realizados por usuarios expertos como las que corresponden a la técnica heurística y a la inspección de estándares para las cuales hay que describir el tipo de experto participante (de usabilidad, accesibilidad o escalabilidad) o el estándar de especialidad por ejemplo estándar de contenido u otro. 
-        .col-12.col-md-4.d-flex.align-items-center(data-aos="flip-left")
-          figure
-            img(src='@/assets/curso/tema3/t3-2.svg', alt='Texto que describa la imagen')
+        .col-12.col-lg-4.d-flex.align-items-center(data-aos="flip-left")
+          figure.d-flex.justify-content-center
+            img.img400(src='@/assets/curso/tema3/t3-2.svg', alt='Texto que describa la imagen')
     
     .row.mb-5
-      .col-12.col-md-4.mb-3.mb-md-0(data-aos="flip-right")
-        figure
-          img(src='@/assets/curso/tema3/t3-3.svg', alt='Texto que describa la imagen')
-      .col-12.col-md-8
+      .col-12.col-lg-4.mb-3.mb-lg-0.order-2.order-lg-1(data-aos="flip-right")
+        figure.d-flex.justify-content-center
+          img.img400(src='@/assets/curso/tema3/t3-3.svg', alt='Texto que describa la imagen')
+      .col-12.col-lg-8.order-1.order-lg-2
         h4.mb-5.bgr_4.p-3.text-white(data-aos="fade-down-right") Descripción del método, la técnica y los instrumentos utilizados
         p La técnica llevada a cabo debe quedar especificada de acuerdo con el método seleccionado (Inspección, indagación o test) al igual que el instrumento que se utilice para la medición. Por ejemplo en la técnica de Recorrido Cognitivo del método de Inspección, el instrumento utilizado fue el Wireframe de baja calidad. Cuando la técnica corresponde a la que realizan los expertos como la heurística y la de inspección de estándares, se deben describir las heurísticas o el tipo de estándar evaluado.
         .cajon.bgr.p-4.mb-3
@@ -57,9 +57,9 @@
     p.mb-5 Las tareas que se asignan a los participantes deben quedar documentadas anexando las preguntas que acompañan la ejecución. Por ejemplo en la técnica de Prestaciones del método <em>Test</em> se asignaron 5 tareas a los usuarios con sus respectivas preguntas:
 
     .row.mb-5
-      .col-12.col-md-8.mb-3.mb-md-0(data-aos="fade-right")
-        .bgr_8.p-3.p-md-5
-          ul.lista-ul--color.lista-ul--separador.ps-md-4
+      .col-12.col-lg-8.mb-3.mb-lg-0(data-aos="fade-right")
+        .bgr_8.p-3.p-lg-5
+          ul.lista-ul--color.lista-ul--separador.ps-lg-4
             li
               i.fas.fa-check-circle.trans_5
               span <b>TAREA 1:</b> buscar el producto a pedir
@@ -75,15 +75,15 @@
               span <b>TAREA 3:</b> Cancelar el proceso de pedido
                 br
                 span ¿Pudo cancelar el pedido que estaba realizando? (SÍ/NO) porqué (explicar qué pasó si hubo algún error en la cancelación)
-      .col-12.col-md-4(data-aos="fade-left")
-        figure
-          img(src='@/assets/curso/tema3/t3-5.svg', alt='Texto que describa la imagen')
+      .col-12.col-lg-4(data-aos="fade-left")
+        figure.d-flex.justify-content-center
+          img.img400(src='@/assets/curso/tema3/t3-5.svg', alt='Texto que describa la imagen')
     
     .row.mb-5
-      .col-12.col-md-4.mb-3.mb-md-0(data-aos="flip-right")
-        figure
-          img(src='@/assets/curso/tema3/t3-6.svg', alt='Texto que describa la imagen')
-      .col-12.col-md-8
+      .col-12.col-lg-4.mb-3.mb-lg-0.order-2.order-lg-1(data-aos="flip-right")
+        figure.d-flex.justify-content-center
+          img.img400(src='@/assets/curso/tema3/t3-6.svg', alt='Texto que describa la imagen')
+      .col-12.col-lg-8.order-1.order-lg-2
         h4.bgr_4.p-3.text-white(data-aos="fade-down-right") Ejecución de la evaluación
         p.mb-5 En esta sección se describen los resultados obtenidos del método, la técnica y el instrumento utilizado, anexando tabulaciones o gráficas de ser posible cuando la prueba lo amerite. Por ejemplo, en la prueba heurística que se obtienen calificaciones de acuerdo con la severidad de la fallas presentadas en el producto multimedia. No se entra en el análisis sino que se presentan los datos organizados.
         h4.bgr_4.p-3.text-white(data-aos="fade-down-right") Análisis de los resultados

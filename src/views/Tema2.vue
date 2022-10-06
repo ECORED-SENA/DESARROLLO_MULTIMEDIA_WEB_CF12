@@ -8,16 +8,16 @@
       h1 Aplicación de pruebas para la evaluación del proyecto multimedia
     
     .row.mb-5
-      .col-12.col-md-4.mb-3.mb-md-0(data-aos="fade-right")
+      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema2/t2-1.svg', alt='Texto que describa la imagen')
-      .col-12.col-md-8(data-aos="fade-left")
+      .col-12.col-lg-8(data-aos="fade-left")
         p Después de diseñar las pruebas para evaluar el producto desarrollado, se procede a comprobar su efectividad aplicándolas con los usuarios reales para determinar si se cumple con los principios y estándares vigentes en materia de accesibilidad, escalabilidad y usabilidad.
         .row.mb-3
           .col-12.col-md-2
             figure
-              img.d-none.d-md-flex(src='@/assets/componentes/bth.svg', alt='Texto que describa la imagen') 
-          .col-12.col-md-10
+              img.d-none.d-lg-flex(src='@/assets/componentes/bth.svg', alt='Texto que describa la imagen') 
+          .col-12.col-lg-10
             p.text-bold Las siguientes técnicas se aplicarán al siguiente estudio de caso “Aplicativo de Comidas Rápidas”
         .cajon.bgr.p-4
           p.mb-0 Un restaurante de comidas rápidas de cierta ciudad posee un aplicativo para ventas online y hace poco implementó la aplicación para dispositivo móviles con sistema operativo Android, por lo que hace que dicho aplicativo se pueda utilizar en cualquier dispositivo sin límite de restricción. Igualmente mejoró el aplicativo introduciendo nuevos productos al menú que se agregan al carro de compras, solicitando dirección de envío y el medio de pago que puede ser cualquiera, ya que antes solo podía recibir pagos de contado y ahora también cuenta con un historial de las compras que ha realizado cada cliente con lo que esperan ofrecer descuentos atractivos. 
@@ -31,7 +31,7 @@
       h4.mb-5.bgr_4.p-3.text-white(data-aos="fade-down-right") Fases de la prueba
 
       .row.mb-5
-        .col-12.col-md-7.mb-3.mb-md-0(data-aos="fade-left")
+        .col-12.col-lg-7.mb-3.mb-lg-0(data-aos="fade-left")
           p.mb-5 Selección de los evaluadores expertos en los aspectos de usabilidad, accesibilidad y escalabilidad.
           ul.lista-ul--color.lista-ul--separador.ps-4
             li
@@ -46,9 +46,9 @@
             li
               i.fas.fa-check-circle.trans
               | Resultados
-        .col-12.col-md-5(data-aos="fade-right")
-          figure
-            img(src='@/assets/curso/tema2/t2-2.svg', alt='Texto que describa la imagen')
+        .col-12.col-lg-5(data-aos="fade-right")
+          figure.d-flex.justify-content-center
+            img.img400(src='@/assets/curso/tema2/t2-2.svg', alt='Texto que describa la imagen')
       
       .cajon.bgr.p-4.mb-5(data-aos="flip-down")
         p.mb-0 Para la evaluación se seleccionaron 15 expertos en los aspectos a evaluar: 5 para usabilidad, 5 para accesibilidad y 5 para escalabilidad, cada uno debe evaluar la experiencia que puede tener el usuario cuando ingrese al aplicativo desde su celular.
@@ -59,14 +59,14 @@
     .row.mb-5.justify-content-center
       .col-12.col-md-10
         .row
-          .col-12.col-md-6.mb-3.mb-md-0(data-aos="fade-right")
+          .col-12.col-lg-6.mb-3.mb-lg-0(data-aos="fade-right")
             .bgr_8.p-4.mb-2
               h3 Usabilidad:
               .row
-                .col-12.col-md-3.mb-3.mb-md-0
+                .col-12.col-lg-3.mb-3.mb-lg-0
                   figure.d-flex.justify-content-center
                     img.img100(src='@/assets/curso/tema2/t2-3.svg', alt='Texto que describa la imagen')
-                .col-12.col-md-9
+                .col-12.col-lg-9
                   p <b>H1.</b> Visibilidad del estado del sistema
                   p <b>H2.</b> Relación del producto con el mundo real
                   p <b>H3.</b> Libertad al usuario
@@ -77,19 +77,19 @@
             .bgr_8.p-4
               h3 Escalabilidad: 
               p.mb-0 <b>H15.</b> Funcionamiento en modo asincrónico
-          .col-12.col-md-6(data-aos="fade-left")
+          .col-12.col-lg-6(data-aos="fade-left")
             figure
               img(src='@/assets/curso/tema2/t2-4.svg', alt='Texto que describa la imagen')
     
     .row.mb-5
-      .col-12.col-md-1
+      .col-12.col-lg-1
         figure
-          img.d-none.d-md-flex(src='@/assets/componentes/bth.svg', alt='Texto que describa la imagen')
-      .col-12.col-md-11
+          img.d-none.d-lg-flex(src='@/assets/componentes/bth.svg', alt='Texto que describa la imagen')
+      .col-12.col-lg-11
         p.text-bold Según Fernández (2019), la métrica de evaluación del método heurístico es la que utiliza Nielsen: 
     
     .row.mb-5.justify-content-center
-      .col-12.col-md-8(data-aos="flip-left")
+      .col-12.col-md-10.col-lg-8(data-aos="flip-left")
         .titulo-sexto.color-acento-contenido
           h5 Tabla 1
           span Relevancia y frecuencia
@@ -156,7 +156,7 @@
             p.mb-0 Las preguntas son diseñadas por el experto de acuerdo con las heurísticas seleccionadas, para el estudio de caso, cada aspecto fue probado máximo 5 veces y de allí se tomó la frecuencia para establecer la calificación, ver la tabla:
      
     .row.mb-5.justify-content-center
-      .col-12.col-md-8(data-aos="flip-left")
+      .col-12.col-md-10.col-lg-8(data-aos="flip-left")
         .titulo-sexto.color-acento-contenido
           h5 Tabla 2
           span Heurística
@@ -205,14 +205,14 @@
       p.mb-0 La anterior tabla muestra las afirmaciones diseñadas para cada heurística, estas también pueden ser preguntas si se desea. El número de veces que se puede dar la falla es cinco (5) ya que es la cantidad de veces que se prueba la afirmación. El porcentaje se halló dividiendo el número de veces de la falla entre el máximo número de fallas el cual es cinco (5).  Si se trasladan los resultados a las tablas de relevancia y frecuencia se obtiene:
     
     .row.mb-5
-      .col-12.col-md-1
+      .col-12.col-lg-1
         figure.d-flex.justify-content-center
-          img.img30.d-none.d-md-flex(src='@/assets/componentes/btv.svg', alt='Texto que describa la imagen') 
-      .col-12.col-md-11
+          img.img30.d-none.d-lg-flex(src='@/assets/componentes/btv.svg', alt='Texto que describa la imagen') 
+      .col-12.col-lg-11
         p En la siguiente tabla se observa que de acuerdo con lo establecido en las tablas de relevancia y frecuencia, los problemas con mayor prioridad están en las heurísticas H3 y H7 de libertad del  usuario y la eficiencia de uso, con las fallas para cancelar el pedido y desplazarse fácilmente entre las opciones de menú respectivamente. Las heurísticas H2 y H15 no representan un problema para el producto. Lo anterior quiere decir que el producto se debe someter a un rediseño y desarrollo nuevamente de las líneas de código necesarias para subsanar las fallas. 
     
     .row.mb-5.justify-content-center
-      .col-12.col-md-8(data-aos="flip-left")
+      .col-12.col-md-10.col-lg-8(data-aos="flip-left")
         .titulo-sexto.color-acento-contenido
           h5 Tabla 3
           span ID
@@ -273,22 +273,22 @@
       p La tarea que se asignará a los participantes de la prueba es el registro en el Aplicativo de Comidas Rápidas:
 
       .row.mb-5
-        .col-12.col-md-3.mb-3.mb-md-0
+        .col-12.col-md-6.col-lg-3.mb-3.mb-lg-0
           .bgr_1.p-4.h-100
             figure.mb-3.d-flex.justify-content-center
               img.img110(src='@/assets/curso/tema2/t2-6.svg', alt='Texto que describa la imagen')
             p.mb-0.text-center <b>Participantes:</b> un grupo de usuarios comunes, un grupo de usuarios expertos en diseño/desarrollo y un grupo de usuarios expertos en usabilidad y accesibilidad. 
-        .col-12.col-md-3.mb-3.mb-md-0
+        .col-12.col-md-6.col-lg-3.mb-3.mb-lg-0
           .bgr_1.p-4.h-100
             figure.mb-3.d-flex.justify-content-center
               img.img110(src='@/assets/curso/tema2/t2-7.svg', alt='Texto que describa la imagen')
             p.mb-0.text-center <b>Tarea:</b> a las tres categorías de usuarios se les pide realizar el recorrido de las acciones que debería realizar para ejecutar registrarse en el aplicativo. 
-        .col-12.col-md-3.mb-3.mb-md-0
+        .col-12.col-md-6.col-lg-3.mb-3.mb-lg-0
           .bgr_1.p-4.h-100
             figure.mb-3.d-flex.justify-content-center
               img.img110(src='@/assets/curso/tema2/t2-8.svg', alt='Texto que describa la imagen')
             p.mb-0.text-center <b>Recorrido:</b> cada usuario deberá escribir en un papel la secuencia de acciones que debe realizar para registrarse en la aplicación de comidas rápidas. 
-        .col-12.col-md-3
+        .col-12.col-md-6.col-lg-3
           .bgr_1.p-4.h-100
             figure.mb-3.d-flex.justify-content-center
               img.img110(src='@/assets/curso/tema2/t2-9.svg', alt='Texto que describa la imagen')
@@ -297,10 +297,10 @@
       .row.mb-5.justify-content-center(data-aos="flip-down")
         .col-12.col-md-10
           .row  
-            .col-12.col-md-2.mb-3.mb-md-0
+            .col-auto.mb-3.mb-md-0
               figure.trans_1.d-flex.justify-content-center
-                img.img120(src='@/assets/curso/tema2/t2-10.png', alt='Texto que describa la imagen')
-            .col-12.col-md-10.d-flex.align-items-center
+                img.ps-1(src='@/assets/curso/tema2/t2-10.png', alt='Texto que describa la imagen')
+            .col-12.col-md-8.col-lg-10.d-flex.align-items-center
               p.text-bold.mb-0 En el estudio de caso uno de los resultados que arrojó el debate de los recorridos del formulario de registro es que no se pida confirmación a través de la cuenta de correo electrónico enviado, pues lo que quieren los usuarios es usar el servicio al dar el clic una vez estén registrados tal y como se muestra en la figura anterior.
     
     h4.mb-5.bgr_4.p-3.text-white(data-aos="fade-down-right") Aplicación de la técnica del recorrido cognitivo 
@@ -321,9 +321,9 @@
       p.mb-0 En el <em>wireframe</em> anterior se solicita al usuario que haga un recorrido cognitivo respecto a lo que espera encontrar en cada punto encerrado en un círculo, cuando explore la página del sitio de comidas rápidas y las acciones que haría para abrir y cerrar la función. 
     
     .row.mb-5
-      .col-12.col-md-7(data-aos="fade-right")
+      .col-12.col-lg-7(data-aos="fade-right")
         p.text-bold Lo que debe documentar el experto que haga la prueba por ejemplo en el punto 1 es:
-        ul.lista-ul--color.lista-ul--separador.ps-md-4
+        ul.lista-ul--color.lista-ul--separador.ps-lg-4
           li
             i.fas.fa-check-circle.trans
             span <b>Interfaz:</b> pantalla de inicio de la página del restaurante de comidas rápidas
@@ -359,7 +359,7 @@
                     span - <b>Éxito:</b> el usuario describió mover el mouse al punto 2 para cerrar el anterior
                     br
                     span - <b>Fallo:</b> el usuario no describió el cierre del punto anterior  
-      .col-12.col-md-5(data-aos="fade-left")
+      .col-12.col-lg-5(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/t2-13.svg', alt='Texto que describa la imagen')
 
@@ -367,45 +367,45 @@
     .row.mb-5.justify-content-center(data-aos="flip-down")
         .col-12.col-md-10
           .row  
-            .col-12.col-md-2.mb-3.mb-md-0
+            .col-auto.mb-3.mb-md-0
               figure.trans_1.d-flex.justify-content-center
-                img.img120(src='@/assets/curso/tema2/t2-10.png', alt='Texto que describa la imagen')
-            .col-12.col-md-10.d-flex.align-items-center
+                img.ps-1(src='@/assets/curso/tema2/t2-10.png', alt='Texto que describa la imagen')
+            .col-12.col-md-8.col-lg-10.d-flex.align-items-center
               p.text-bold.mb-0 Lo que se espera es que el sitio cumpla con las expectativas de los usuarios colocando los elementos visuales adecuados y determinar si se hacen las acciones correctas para moverse dentro del aplicativo.
     .bg_grad-11
-      .row.mb-3.mb-md-0(data-aos="flip-up")
-        .col-12.col-lg-2.col-xl-1.mt-3.mt-md-0
+      .row.mb-3.mb-lg-0(data-aos="flip-up")
+        .col-12.col-lg-2.col-xl-1.mt-3.mt-lg-0
           figure.d-flex.justify-content-center
             img.img100(src='@/assets/curso/tema2/01.svg', alt='Texto que describa la imagen')
-        .col-12.col-lg-10.col-xl-11.p-3
+        .col-12.col-lg-10.col-xl-11.p-4.p-lg-3
           p.mb-0 La persona que diseña la prueba piloto es quien debe hacer retroalimentación de acuerdo a los ejercicios que arroje la prueba, documentar cada observación realizado por mínima que esta sea, esto le permitirá avanzar en el proceso de rediseño.
     .bg_grad-11
-      .row.mb-3.mb-md-0(data-aos="flip-down")
-        .col-12.col-lg-2.col-xl-1.mt-3.mt-md-0
+      .row.mb-3.mb-lg-0(data-aos="flip-down")
+        .col-12.col-lg-2.col-xl-1.mt-3.mt-lg-0
           figure.d-flex.justify-content-center
             img.img100(src='@/assets/curso/tema2/02.svg', alt='Texto que describa la imagen')
-        .col-12.col-lg-10.col-xl-11.p-4.p-md-3
+        .col-12.col-lg-10.col-xl-11.p-4.p-lg-3
           p.mb-0 Los comentarios o ajustes de cada pantallazo realizados por los usuarios de la prueba piloto deben hacerse al momento de terminar la interfaz, con el fin de que la prueba sea secuencial y no tenga espacios muertos, sino sea de corrido.
     .bg_grad-11
-      .row.mb-3.mb-md-0(data-aos="flip-up")
-        .col-12.col-lg-2.col-xl-1.mt-3.mt-md-0
+      .row.mb-3.mb-lg-0(data-aos="flip-up")
+        .col-12.col-lg-2.col-xl-1.mt-3.mt-lg-0
           figure.d-flex.justify-content-center
             img.img100(src='@/assets/curso/tema2/03.svg', alt='Texto que describa la imagen')
-        .col-12.col-lg-10.col-xl-11.p-3
+        .col-12.col-lg-10.col-xl-11.p-4.p-lg-3
           p.mb-0 Al momento de realizar la prueba piloto es importante contar con la presencia de los creadores de la aplicación, con el fin de que puedan observar el paso a paso del contenido y están al tanto de los posibles cambios de la interfaz.
     .bg_grad-11
-      .row.mb-3.mb-md-0(data-aos="flip-down")
-        .col-12.col-lg-2.col-xl-1.mt-3.mt-md-0
+      .row.mb-3.mb-lg-0(data-aos="flip-down")
+        .col-12.col-lg-2.col-xl-1.mt-3.mt-lg-0
           figure.d-flex.justify-content-center
             img.img100(src='@/assets/curso/tema2/04.svg', alt='Texto que describa la imagen')
-        .col-12.col-lg-10.col-xl-11.p-3
+        .col-12.col-lg-10.col-xl-11.p-4.p-lg-3
           p.mb-0 Muy importante hacer ver a los usuarios de la prueba piloto, que sus comentarios y observaciones son de gran valor, es decir llevarlos a que se sostengan en su criterio y no sea cambiado por algún otro tipo de comentario.
     .bg_grad-11
       .row.mb-5(data-aos="flip-up")
-        .col-12.col-lg-2.col-xl-1.mt-3.mt-md-0
+        .col-12.col-lg-2.col-xl-1.mt-3.mt-lg-0
           figure.d-flex.justify-content-center
             img.img100(src='@/assets/curso/tema2/05.svg', alt='Texto que describa la imagen')
-        .col-12.col-lg-10.col-xl-11.p-3
+        .col-12.col-lg-10.col-xl-11.p-4.p-lg-3
           p.mb-0 Para la prueba piloto también es importante que el aspecto de la presentación sea específico, y al mismo tiempo sencillo, con el fin de no generar algún tipo de distracción por parte de los usuarios en el ejercicio de la prueba piloto.
     
     h4.mb-5.bgr_4.p-3.text-white(data-aos="fade-down-right") Aplicación de la técnica de entrevista 
@@ -413,11 +413,11 @@
     p Un ejemplo de entrevista para el caso que se ha venido estudiando <b>“Aplicación de Comidas Rápidas”</b>; es la que puede hacer el diseñador UX (Experiencia de Usuario) al gerente del restaurante; quien tiene toda la información que necesita el aplicativo que se va a utilizar como estrategia para incrementar las ventas:
   
     .row.mb-5.justify-content-center
-      .col-12.col-md-8(data-aos="zoom-out")
+      .col-12.col-md-10.col-lg-8(data-aos="zoom-out")
         .bgr_10.p-3
           h4.mb-0.text-center Ejemplo de entrevista “Aplicación comidas rápidas”
         .bgr_11.p-4
-          ul.lista-ul--color.lista-ul--separador.ps-md-4
+          ul.lista-ul--color.lista-ul--separador.ps-lg-4
             li
               i.fas.fa-check-circle.trans
               span <b>Introducción</b>
@@ -490,7 +490,7 @@
       p.mb-5 Para el caso que se trae en estudio: <b>“Aplicación de Comidas Rápidas”</b>, un cuestionario puede ser el siguiente:
     
     .row.mb-5.justify-content-center  
-      .col-12.col-md-8(data-aos="zoom-in")
+      .col-12.col-md-10.col-lg-8(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/tema2/t2-14.svg', alt='Texto que describa la imagen')
     
