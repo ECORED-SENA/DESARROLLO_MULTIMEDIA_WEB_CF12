@@ -7,8 +7,8 @@
         span 1
       h1 Diseño de pruebas para la evaluación del proyecto multimedia
     
-    .row.mb-5
-      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
+    .row.mb-5.justify-content-center
+      .col-12.col-md-8.col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema1/t1-1.svg', alt='Texto que describa la imagen')
       .col-12.col-lg-8.bg_grad-01.d-flex.align-items-center(data-aos="fade-left")
@@ -41,7 +41,7 @@
           figure.mb-3.d-flex.justify-content-center
             img.img110(src='@/assets/curso/tema1/t1-4.svg', alt='Texto que describa la imagen')
           p.mb-0.text-center <b>Accesibilidad:</b> Fernández (2019) define este término como un adjetivo que significa de fácil acceso. Es el grado en el que cualquier persona más allá de sus capacidades físicas o técnicas pueden utilizar un objeto o servicio.
-      .col-12.col-md-6.col-lg-3.mb-3.mb-lg-0
+      .col-12.col-md-6.col-lg-3.mb-3.mb-md-0
         .bgr_1.p-4.h-100
           figure.mb-3.d-flex.justify-content-center
             img.img110(src='@/assets/curso/tema1/t1-5.svg', alt='Texto que describa la imagen')
@@ -95,7 +95,7 @@
     
     p.mb-5 En el anterior video se observa la utilización de una técnica (heurística) para la evaluación de un sitio web y así mismo se explica a continuación, aspectos por tener en cuenta para que la interfaz (pantalla) cause una buena impresión a los usuarios:
 
-    .row
+    .row.justify-content-center
       .col-12.col-lg-7.d-flex.align-items-center(data-aos="fade-left")
         ul.lista-ul--color.lista-ul--separador.ps-3
           li
@@ -113,7 +113,7 @@
           li
             i.fas.fa-check-circle.trans
             | El usuario debe tener la capacidad de sintetizar, captar, observar y percibir si la aplicación en algún momento presenta cambios sustanciales dentro de la operación del sistema.
-      .col-12.col-lg-5(data-aos="fade-right")
+      .col-12.col-md-6.col-lg-5(data-aos="fade-right")
         figure.d-flex.justify-content-center
           img.img420(src='@/assets/curso/tema1/t1-12.svg', alt='Texto que describa la imagen')
     
@@ -133,8 +133,8 @@
 
     p Consiste en el análisis de la interfaz con la cual interactúa el usuario para determinar si responde a los principios de usabilidad. Cada principio corresponde a una “H” en la heurística y corresponden a:
 
-    .row.mb-3.mb-md-5
-      .col-12.col-lg-5.mb-3.mb-lg-0.order-2.order-lg-1(data-aos="fade-right")
+    .row.mb-3.mb-md-5.justify-content-center
+      .col-12.col-md-6.col-lg-5.mb-3.mb-lg-0.order-2.order-lg-1(data-aos="fade-right")
         figure.d-flex.justify-content-center
           img.img450(src='@/assets/curso/tema1/t1-14.svg', alt='Texto que describa la imagen')
       .col-12.col-lg-7.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="fade-left")
@@ -145,7 +145,7 @@
           p(numero="H4" titulo="Consistencia") Utilizar un patrón de diseño de los elementos del producto no solo le proporciona coherencia sino claridad y facilidad de uso a la hora de ser utilizado por el usuario. Por ejemplo cuando se diseñan botones se debe colocar del mismo color y tamaño.
           p(numero="H5" titulo="Prevención de errores") Se deben dar instrucciones claras a los usuarios sobre cómo manejar el producto y las acciones que deben realizar para evitar su mal uso y posteriormente el abandono, debido a los errores que puede arrojar.
           
-    .row.mb-5
+    .row.mb-5.justify-content-center
       .col-12.col-lg-7.mb-3.mb-lg-0(data-aos="fade-left")
         LineaTiempoD.color-acento-botones
           p.text-small(numero="H6" titulo=" Recordación") El producto multimedia debe proporcionar toda la información posible en aquellos momentos donde el usuario necesita recordar los detalles claves que le permitan confirmar la decisión que está a punto de tomar.
@@ -153,7 +153,7 @@
           p.text-small(numero="H8" titulo="Diseño minimalista") Es importante no saturar de información al usuario del producto, mostrándole contenido innecesario que lo distraiga y lo desvíe del objetivo de utilización del producto. 
           p.text-small(numero="H9" titulo="Reconocer y corregir errores") Proporciona información al usuario de lo que está generando errores en la utilización del producto multimedia, y le brinda recomendaciones de las acciones que puede realizar para un buen uso del sistema.
           p.text-small(numero="H10" titulo="Ayuda y documentación") Se deben detectar las dudas más comunes de los usuarios cuando está usando el producto multimedia e incluir la información necesaria para que él mismo pueda encontrar la manera de resolverlas. De esta forma el producto se hace auto gestionable.
-      .col-12.col-lg-5.mb-3.mb-lg-0(data-aos="fade-right")
+      .col-12.col-md-6.col-lg-5.mb-3.mb-lg-0(data-aos="fade-right")
         figure.d-flex.justify-content-center
           img.img450(src='@/assets/curso/tema1/t1-15.svg', alt='Texto que describa la imagen')
     
@@ -179,7 +179,7 @@
             img.img110(src='@/assets/curso/tema1/t1-18.svg', alt='Texto que describa la imagen')
             img.trans_2(src='@/assets/curso/tema1/t1-22.svg', alt='Texto que describa la imagen')
           p.mb-0.text-center <b>Operabilidad:</b> el producto debe proporcionar facilidad de interacción y navegación a los usuarios a través del mouse o el teclado. La interfaz o pantalla que se le coloque al usuario para acceder al producto multimedia deben permitirle ir al lugar que quiera.
-      .col-12.col-md-6.col-lg-3.mb-3.mb-lg-0
+      .col-12.col-md-6.col-lg-3.mb-3.mb-md-0
         .bgr_1.p-4.h-100
           figure.mb-3.d-flex.justify-content-center.position-relative
             img.img110(src='@/assets/curso/tema1/t1-19.svg', alt='Texto que describa la imagen')
@@ -196,8 +196,8 @@
       .bg_grad-03
         p.mb-3.mb-lg-5 Igualmente se pueden incluir principios de escalabilidad que en el Marco de la Junta de Andalucía (s.f.) se definen como buenas prácticas; las cuales corresponde a la numeración heurística que sigue: 
 
-      .row.mb-5
-        .col-12.col-lg-5.mb-3.mb-lg-0.order-2.order-lg-1(data-aos="fade-right")
+      .row.mb-5.justify-content-center
+        .col-12.col-md-6.col-lg-5.mb-3.mb-lg-0.order-2.order-lg-1(data-aos="fade-right")
           figure.d-flex.justify-content-center
             img.img450(src='@/assets/curso/tema1/t1-25.svg', alt='Texto que describa la imagen')
         .col-12.col-lg-7.order-1.order-lg-2(data-aos="fade-left")
@@ -236,7 +236,7 @@
 
       h4.mb-5.bgr_4.p-3.text-white(data-aos="fade-down-right") Técnica recorrido de usabilidad plural
 
-      .row.mb-5
+      .row.mb-5.justify-content-center
         .col-12.col-lg-7(data-aos="fade-right")
           p.mb-3.mb-lg-5 Esta técnica tiene como objetivo analizar las acciones que realizan tres categorías de usuarios cuando interactúan con el producto en determinadas tareas. Estas acciones son el recorrido o secuencia de actividades para lograr el resultado esperado, aplicado más que todo para medir la usabilidad y accesibilidad del producto. Es plural porque intervienen diferentes tipos de usuario a diferencia de la técnica heurística que la realizan los expertos solamente. Para la aplicación de esta técnica se deben realizar las siguientes acciones:
           ul.lista-ul--color.lista-ul--separador.ps-3
@@ -252,7 +252,7 @@
             li
               i.fas.fa-check-circle.trans
               span <b>Realización de la exposición:</b> cada categoría de usuario deberá exponer la secuencia de acciones que realizaría para llevar a cabo la tarea, después se debatirá para llegar a un consenso sobre el recorrido más sencillo.
-        .col-12.col-lg-5(data-aos="fade-left")
+        .col-12.col-md-6.col-lg-5(data-aos="fade-left")
           figure.d-flex.justify-content-center
             img.img450(src='@/assets/curso/tema1/t1-33.svg', alt='Texto que describa la imagen')
     
@@ -348,8 +348,8 @@
           .col-12.col-md-8.col-lg-10.d-flex.align-items-center
             p.text-bold.mb-0 La mejor metodología para realizar esta técnica es teniendo la primera versión del producto terminado, aunque también se puede realizar sobre un <em>wireframe</em> de baja fidelidad, ya que esta técnica tiene que ver con la evaluación de la interfaz o espacio visual que contiene imágenes y objetos con los que interactúa usuario y no con las funcionalidades del producto. Lo que se hace es comparar la interfase con el estándar para verificar que se cumplan los parámetros.
     
-    .row.mb-3.mb-lg-5
-      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="fade-left")
+    .row.mb-3.mb-lg-5.justify-content-center
+      .col-12.col-md-6.col-lg-4.mb-3.mb-lg-0(data-aos="fade-left")
         figure.d-flex.justify-content-center
           img.img400(src='@/assets/curso/tema1/t1-42.svg', alt='Texto que describa la imagen')
       .col-12.col-lg-8.bg_grad-05(data-aos="fade-right")
@@ -392,8 +392,8 @@
       h2 1.2 Método de Indagación
     
     .bloque-texto-a.color-primario.p-3.p-md-3.mb-5(data-aos="flip-up")
-      .row.m-0.align-items-center.justify-content-between
-        .col-lg-4.mb-4.mb-lg-0
+      .row.m-0.align-items-center.justify-content-center
+        .col-md-6.col-lg-4.mb-4.mb-lg-0
           figure
             img(src='@/assets/curso/tema1/t1-46.svg', alt='Texto que describa la imagen')
         .col-lg-8
@@ -403,7 +403,7 @@
     figure(data-aos="zoom-in")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/fb-N134ko1A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        
+
     separador
 
     #t_1_3.titulo-segundo.color-acento-botones(data-aos="fade-right")

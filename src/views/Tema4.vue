@@ -7,8 +7,8 @@
         span 4
       h1 Estrategias de CRM 
     
-    .row.mb-5
-      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
+    .row.mb-5.justify-content-center
+      .col-12.col-md-6.col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema4/t4-1.svg', alt='Texto que describa la imagen')
       .col-12.col-lg-8(data-aos="fade-left")
@@ -49,7 +49,7 @@
     
     p.text-bold Los beneficios para el equipo de diseño y desarrollo son:
 
-    .row.mb-5
+    .row.mb-5.justify-content-center
       .col-12.col-lg-8.d-flex.align-items-center(data-aos="fade-left")
         ul.lista-ul--color.lista-ul--separador.ps-lg-4
           li
@@ -64,12 +64,12 @@
           li
             i.fas.fa-check-circle.trans
             | Facilita los procesos de desarrollo, reduciendo costos y tiempos al contar con información del usuario con mayor precisión.
-      .col-12.col-lg-4(data-aos="fade-right")
+      .col-12.col-md-6.col-lg-4(data-aos="fade-right")
         figure.d-flex.justify-content-center
           img.img400(src='@/assets/curso/tema4/t4-3.svg', alt='Texto que describa la imagen')
     
-    .row
-      .col-12.col-lg-4.order-2.order-lg-1(data-aos="fade-right")
+    .row.justify-content-center
+      .col-12.col-md-6.col-lg-4.order-2.order-lg-1(data-aos="fade-right")
         figure.d-flex.justify-content-center
           img.img400(src='@/assets/curso/tema4/t4-4.svg', alt='Texto que describa la imagen')
       .col-12.col-lg-8.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="fade-left")
@@ -86,11 +86,11 @@
     #t_4_2.titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2 4.2 Herramientas CRM para emprendedores, autónomos y empresas
     
-    .row.mb-5
+    .row.mb-5.justify-content-center
       .col-12.col-lg-9.mb-3.mb-lg-0(data-aos="fade-right")
         .bg_grad-05
           p Después de comprender la importancia de un CRM y el valor agregado que puede generar a una organización, emprendimiento o pyme, se entiende que es un <em>software</em> de gestión, donde la principal estrategia es la interacción entre clientes y empresarios y todo el contenido anteriormente estudiado se hará una introducción de cuáles son los mejores <em>softwares</em> del mercado actualmente, con la gran ventaja de ser gratuitos al público en general, y soportados tecnológicamente en la nube lo que permite su acceso y registro desde cualquier entorno, desde un ordenador, Tablet o dispositivo móvil, encontrando allí una información determinada de una organización y todo lo que esta conlleva en todos sus ámbitos.
-      .col-12.col-lg-3(data-aos="fade-left")
+      .col-12.col-md-6.col-lg-3(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema4/t4-5.svg', alt='Texto que describa la imagen')
     
@@ -167,8 +167,8 @@
       h2 4.3 Ejemplos de uso de un CRM
     
     .bloque-texto-a.color-primario.p-3.p-md-3.mb-5(data-aos="flip-up")
-      .row.m-0.align-items-center.justify-content-between
-        .col-lg-4.mb-4.mb-lg-0
+      .row.m-0.align-items-center.justify-content-center
+        .col-md-6.col-lg-4.mb-4.mb-lg-0
           figure
             img(src='@/assets/curso/tema4/t4-13.svg', alt='Texto que describa la imagen')
         .col-lg-8
@@ -200,8 +200,8 @@
     #t_4_4.titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2 4.4 Informes de resultados de las pruebas CRM
     
-    .row.mb-5
-      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
+    .row.mb-5.justify-content-center
+      .col-12.col-md-6.col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema4/t4-17.svg', alt='Texto que describa la imagen')
       .col-12.col-lg-8(data-aos="fade-left")
@@ -218,36 +218,36 @@
     
     .tarjeta.bgr_12.p-md-4.mb-5(data-aos="zoom-out")
       SlyderA(tipo="b")
-        .row.p-5.bgr_13
+        .row.p-5.bgr_13.justify-content-center
           .col-12.col-lg-9.mb-3.mb-lg-0.d-flex.align-items-center
             div
               h3 Informe de cliente
               p.mb-0 En primera instancia podemos mencionar los informes que se realizan por intermedio de la visita a los clientes, son informes que contiene toda la información de los clientes y su respectiva actividad comercial en el transcurso de un periodo determinado y de igual forma tener presente cuando será la siguiente visita, este tipo de informes permite proporcionar el trabajo con cada cliente y el equipo de trabajo, esto con el fin de no cargar ni al uno u otro con acciones que les impliquen tiempo y poco resultado.
-          .col-12.col-lg-3
+          .col-12.col-md-8.col-lg-3
             figure
               img(src='@/assets/curso/tema4/t4-18.svg', alt='Texto que describa la imagen')
-        .row.p-5.bgr_14
+        .row.p-5.bgr_14.justify-content-center
           .col-12.col-lg-9.mb-3.mb-lg-0.d-flex.align-items-center
             div
               h3 Informe de rechazos
               p.mb-0 Este tipo de informes permitirá entrar a evaluar si un cliente no está conforme con un producto determinado o un servicio, permitiendo dar pronta respuesta a la inconformidad y darle solución oportuna, de igual forma se requiere tener todos los datos pertinentes para poder solventar el inconveniente, se requiere hacer un comparativo de los entornos comerciales, observando si es un error continuo o desafortunadamente se presentó a un solo usuario.
-          .col-12.col-lg-3
+          .col-12.col-md-8.col-lg-3
             figure
               img(src='@/assets/curso/tema4/t4-19.svg', alt='Texto que describa la imagen')
-        .row.p-5.bgr_15
+        .row.p-5.bgr_15.justify-content-center
           .col-12.col-lg-9.mb-3.mb-lg-0.d-flex.align-items-center
             div
               h3 Informe de costos 
               p.mb-0 Esta herramienta permitirá obtener un reporte en tiempo real de gastos (por día, semana, o frecuencia) de cada usuario, el CRM tiene la capacidad de organizar dicha información y almacenarla por carpetas para un mayor control de entradas y salidas en temas de dinero de los clientes.
-          .col-12.col-lg-3
+          .col-12.col-md-8.col-lg-3
             figure
               img(src='@/assets/curso/tema4/t4-20.svg', alt='Texto que describa la imagen')
-        .row.p-5.bgr_16
+        .row.p-5.bgr_16.justify-content-center
           .col-12.col-lg-9.mb-3.mb-lg-0.d-flex.align-items-center
             div
               h3 Informe de clientes y clientes prospectos
               p.mb-0 Este informe es muy similar al informe de clientes, ya que podemos clasificar los clientes actuales y su fidelización y los posibles prospectos de clientes en los cuales se centra la atención, puesto que es importante clasificarlos y hacerles seguimiento paso a paso con el fin de potencializarlos de acuerdo a sus requerimientos y necesidades, el CRM brindará los datos de conversión de las clientes antiguos, nuevos y prospectos. 
-          .col-12.col-lg-3
+          .col-12.col-md-8.col-lg-3
             figure
               img(src='@/assets/curso/tema4/t4-21.svg', alt='Texto que describa la imagen')
     

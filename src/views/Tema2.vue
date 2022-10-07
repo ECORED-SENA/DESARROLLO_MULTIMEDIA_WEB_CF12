@@ -7,8 +7,8 @@
         span 2
       h1 Aplicación de pruebas para la evaluación del proyecto multimedia
     
-    .row.mb-5
-      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
+    .row.mb-5.justify-content-center
+      .col-12.col-md-6.col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema2/t2-1.svg', alt='Texto que describa la imagen')
       .col-12.col-lg-8(data-aos="fade-left")
@@ -58,7 +58,7 @@
     
     .row.mb-5.justify-content-center
       .col-12.col-md-10
-        .row
+        .row.justify-content-center
           .col-12.col-lg-6.mb-3.mb-lg-0(data-aos="fade-right")
             .bgr_8.p-4.mb-2
               h3 Usabilidad:
@@ -77,7 +77,7 @@
             .bgr_8.p-4
               h3 Escalabilidad: 
               p.mb-0 <b>H15.</b> Funcionamiento en modo asincrónico
-          .col-12.col-lg-6(data-aos="fade-left")
+          .col-12.col-md-6.col-lg-6(data-aos="fade-left")
             figure
               img(src='@/assets/curso/tema2/t2-4.svg', alt='Texto que describa la imagen')
     
@@ -147,8 +147,8 @@
         | Por su parte en la Tabla 2, se observa la frecuencia con que la heurística no satisface al cliente y le asigna una calificación, es decir que si se obtuvo un 4 es porque más del 90% de las veces el producto presenta fallas, si es de 3 es porque entre el 50 y el 90% el producto no cumple con lo esperado por algún tipo de problemas, si es de 2 quiere decir el producto presenta problemas entre el 10% y 25% de las veces en que es utilizado y si es cero el producto falla máximo el 10% de las veces y se puede considerar que tiene un buen funcionamiento. 
     
     .bloque-texto-a.color-primario.p-3.p-md-3.mb-5(data-aos="flip-up")
-      .row.m-0.align-items-center.justify-content-between
-        .col-lg-4.mb-4.mb-lg-0
+      .row.m-0.align-items-center.justify-content-center
+        .col-md-8.col-lg-4.mb-4.mb-lg-0
           figure
             img(src='@/assets/curso/tema2/t2-5.svg', alt='Texto que describa la imagen')
         .col-lg-8
@@ -283,7 +283,7 @@
             figure.mb-3.d-flex.justify-content-center
               img.img110(src='@/assets/curso/tema2/t2-7.svg', alt='Texto que describa la imagen')
             p.mb-0.text-center <b>Tarea:</b> a las tres categorías de usuarios se les pide realizar el recorrido de las acciones que debería realizar para ejecutar registrarse en el aplicativo. 
-        .col-12.col-md-6.col-lg-3.mb-3.mb-lg-0
+        .col-12.col-md-6.col-lg-3.mb-3.mb-md-0
           .bgr_1.p-4.h-100
             figure.mb-3.d-flex.justify-content-center
               img.img110(src='@/assets/curso/tema2/t2-8.svg', alt='Texto que describa la imagen')
@@ -320,7 +320,7 @@
     .cajon.bgr.p-4.mb-5(data-aos="flip-down")
       p.mb-0 En el <em>wireframe</em> anterior se solicita al usuario que haga un recorrido cognitivo respecto a lo que espera encontrar en cada punto encerrado en un círculo, cuando explore la página del sitio de comidas rápidas y las acciones que haría para abrir y cerrar la función. 
     
-    .row.mb-5
+    .row.mb-5.justify-content-center
       .col-12.col-lg-7(data-aos="fade-right")
         p.text-bold Lo que debe documentar el experto que haga la prueba por ejemplo en el punto 1 es:
         ul.lista-ul--color.lista-ul--separador.ps-lg-4
@@ -359,7 +359,7 @@
                     span - <b>Éxito:</b> el usuario describió mover el mouse al punto 2 para cerrar el anterior
                     br
                     span - <b>Fallo:</b> el usuario no describió el cierre del punto anterior  
-      .col-12.col-lg-5(data-aos="fade-left")
+      .col-12.col-md-6.col-lg-5(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/t2-13.svg', alt='Texto que describa la imagen')
 
