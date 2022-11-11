@@ -20,7 +20,7 @@
           .col-12.col-lg-10
             p.text-bold Las siguientes técnicas se aplicarán al siguiente estudio de caso “Aplicativo de Comidas Rápidas”
         .cajon.bgr.p-4
-          p.mb-0 Un restaurante de comidas rápidas de cierta ciudad posee un aplicativo para ventas online y hace poco implementó la aplicación para dispositivo móviles con sistema operativo Android, por lo que hace que dicho aplicativo se pueda utilizar en cualquier dispositivo sin límite de restricción. Igualmente mejoró el aplicativo introduciendo nuevos productos al menú que se agregan al carro de compras, solicitando dirección de envío y el medio de pago que puede ser cualquiera, ya que antes solo podía recibir pagos de contado y ahora también cuenta con un historial de las compras que ha realizado cada cliente con lo que esperan ofrecer descuentos atractivos. 
+          p.mb-0 Un restaurante de comidas rápidas de cierta ciudad posee un aplicativo para ventas <em>online</em> y hace poco implementó la aplicación para dispositivo móviles con sistema operativo Android, por lo que hace que dicho aplicativo se pueda utilizar en cualquier dispositivo sin límite de restricción. Igualmente mejoró el aplicativo introduciendo nuevos productos al menú que se agregan al carro de compras, solicitando dirección de envío y el medio de pago que puede ser cualquiera, ya que antes solo podía recibir pagos de contado y ahora también cuenta con un historial de las compras que ha realizado cada cliente con lo que esperan ofrecer descuentos atractivos. 
     
     .bg_grad-08
       p A continuación, se podrá conocer las diferentes aplicaciones de problemas: 
@@ -115,28 +115,28 @@
                 td P > 90%
               tr
                 td 3
-                td Problema graveq
+                td Problema grave
                 td Alta
                 td 3
-                td 50%<P<=90%
+                td 50%< P <=90%
               tr
                 td 2
                 td Problema menor
                 td Baja
                 td 2
-                td 25%<P<= 50%
+                td 25%< P <= 50%
               tr
                 td 1
                 td Problema cosmético
                 td -
                 td 1
-                td 10%<P<=25%
+                td 10%< P <=25%
               tr
                 td 0
                 td No supone un problema
                 td -
                 td 0
-                td 0%<P<=10%
+                td 0%< P <=10%
     
     ul.lista-ul--color.lista-ul--separador.ps-md-4.mb-5
       li
@@ -144,7 +144,7 @@
         | En la Tabla 1, se observa el grado de severidad de un problema siendo el más alto (4) cuando el problema es bloqueante o le impide al usuario seguir adelante con otra función, es grave (3) cuando el usuario puede utilizar alguna otra función del producto, es menor (2) cuando puede operar el producto aunque presente algunos inconvenientes, es cosmético (1) cuando el producto es utilizable y funcional aunque requiera en algún momento de realizar cualquier tipo de actualización para su óptimo funcionamiento y no supone problema (0) cuando el producto funciona correctamente.
       li
         i.fas.fa-pen-square.trans_5
-        | Por su parte en la Tabla 2, se observa la frecuencia con que la heurística no satisface al cliente y le asigna una calificación, es decir que si se obtuvo un 4 es porque más del 90% de las veces el producto presenta fallas, si es de 3 es porque entre el 50 y el 90% el producto no cumple con lo esperado por algún tipo de problemas, si es de 2 quiere decir el producto presenta problemas entre el 10% y 25% de las veces en que es utilizado y si es cero el producto falla máximo el 10% de las veces y se puede considerar que tiene un buen funcionamiento. 
+        | Por su parte en la Tabla 2, se observa la frecuencia con que la heurística no satisface al cliente y le asigna una calificación, es decir que si se obtuvo un 4 es porque más del 90% de las veces el producto presenta fallas, si es de 3 es porque entre el 50 y el 90% el producto no cumple con lo esperado por algún tipo de problemas, si es de 2 quiere decir que el producto presenta problemas entre el 10% y 25% de las veces en que es utilizado y si es cero el producto falla máximo el 10% de las veces y se puede considerar que tiene un buen funcionamiento. 
     
     .bloque-texto-a.color-primario.p-3.p-md-3.mb-5(data-aos="flip-up")
       .row.m-0.align-items-center.justify-content-center
@@ -241,31 +241,31 @@
                 td H3, H7
               tr
                 td 3
-                td Problema graveq
+                td Problema grave
                 td Alta
                 td 3
-                td 50%<P<=90%
+                td 50%< P <=90%
                 td H1, H12
               tr
                 td 2
                 td Problema menor
                 td Baja
                 td 2
-                td 25%<P<= 50%
+                td 25%< P <= 50%
                 td 
               tr
                 td 1
                 td Problema cosmético
                 td -
                 td 1
-                td 10%<P<=25%
+                td 10%< P <=25%
                 td H15
               tr
                 td 0
                 td No supone un problema
                 td -
                 td 0
-                td 0%<P<=10%
+                td 0%< P <=10%
                 td H2
 
     .bg_grad-10
@@ -301,7 +301,7 @@
               figure.trans_1.d-flex.justify-content-center
                 img.ps-1(src='@/assets/curso/tema2/t2-10.png', alt='Texto que describa la imagen')
             .col-12.col-md-8.col-lg-10.d-flex.align-items-center
-              p.text-bold.mb-0 En el estudio de caso uno de los resultados que arrojó el debate de los recorridos del formulario de registro es que no se pida confirmación a través de la cuenta de correo electrónico enviado, pues lo que quieren los usuarios es usar el servicio al dar el clic una vez estén registrados tal y como se muestra en la figura anterior.
+              p.text-bold.mb-0 En el estudio de caso uno de los resultados que arrojó el debate de los recorridos del formulario de registro es que no se pida confirmación a través de la cuenta de correo electrónico enviado, pues lo que quieren los usuarios es usar el servicio al dar el clic una vez estén registrados.
     
     h4.mb-5.bgr_4.p-3.text-white(data-aos="fade-down-right") Aplicación de la técnica del recorrido cognitivo 
 
@@ -363,7 +363,6 @@
         figure
           img(src='@/assets/curso/tema2/t2-13.svg', alt='Texto que describa la imagen')
 
-
     .row.mb-5.justify-content-center(data-aos="flip-down")
         .col-12.col-md-10
           .row  
@@ -372,6 +371,9 @@
                 img.ps-1(src='@/assets/curso/tema2/t2-10.png', alt='Texto que describa la imagen')
             .col-12.col-md-8.col-lg-10.d-flex.align-items-center
               p.text-bold.mb-0 Lo que se espera es que el sitio cumpla con las expectativas de los usuarios colocando los elementos visuales adecuados y determinar si se hacen las acciones correctas para moverse dentro del aplicativo.
+
+    h4.mb-5.bgr_4.p-3.text-white(data-aos="fade-down-right") Recomendaciones para tener en cuenta en el recorrido cognitivo
+
     .bg_grad-11
       .row.mb-3.mb-lg-0(data-aos="flip-up")
         .col-12.col-lg-2.col-xl-1.mt-3.mt-lg-0
@@ -468,7 +470,7 @@
                     span ¿Qué mensaje debería recibir el cliente cuando hace el proceso completo de pedido?
                   li.trans_7
                     i.fas.fa-caret-right.trans_6
-                    span ¿Qué mensaje debe indicarle al cliente cuando no realizado bien el proceso de pedido?
+                    span ¿Qué mensaje debe indicarle al cliente cuando no ha realizado bien el proceso de pedido?
                   li.trans_7
                     i.fas.fa-caret-right.trans_6
                     span ¿Qué clase de mensaje puede invitar al cliente a seguir haciendo pedidos?
@@ -502,7 +504,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0.text-white
               h3.mb-1 Aplicación técnica test de usabilidad
-              p.mb-0 Siguiendo con el caso estudio: <b>“Aplicación de Comidas Rápidas”</b>, se muestra un ejemplo de un test de usabilidad a través del documento que debe descargar, dando clic en la flecha:   
+              p.mb-0 Siguiendo con el caso estudio: <b>“Aplicación de Comidas Rápidas”</b>, se muestra un ejemplo de un test de usabilidad a través del siguiente documento que debe descargar:   
             .col-sm-auto
               a.boton.color-acento-botones.colr_2(:href="obtenerLink('downloads/Anexo_01.pdf')" target="_blank")
                 span Descarga

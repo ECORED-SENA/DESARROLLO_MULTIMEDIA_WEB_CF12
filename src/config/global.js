@@ -79,19 +79,19 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Método de Inspección',
+            titulo: 'Método de inspección',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Método de Indagación',
+            titulo: 'Método de indagación',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Método de Test',
+            titulo: 'Método de test',
             hash: 't_1_3',
           },
         ],
@@ -216,7 +216,7 @@ export default {
       tema: '1.3. Método de Test',
       referencia: 'Lorés, J. et al. (2006). Evaluación.',
       tipo: 'Artículo',
-      descarga: '/downloads/pruebas.pdf',
+      link: 'https://aipo.es/libro/pdf/04Evalua.pdf',
     },
     {
       tema: '4. Estrategias de CRM',
@@ -250,7 +250,7 @@ export default {
     {
       termino: 'CRM',
       significado:
-        '<em>Customer Relationship Management</em>, o Gestión de las relaciones con clientes) es una aplicación que permite centralizar en una única Base de Datos todas las interacciones entre una empresa y sus clientes.',
+        '<em>Customer Relationship Management</em>, o (Gestión de las relaciones con clientes) es una aplicación que permite centralizar en una única Base de Datos todas las interacciones entre una empresa y sus clientes.',
     },
     {
       termino: 'Escalabilidad',
@@ -283,7 +283,7 @@ export default {
         'Nombre genérico para un conjunto de métodos basados en evaluadores que examinan aspectos relacionados con la usabilidad de la interfaz.',
     },
     {
-      termino: 'Interfaz de Usuario -UI-',
+      termino: 'Interfaz de Usuario (UI)',
       significado:
         'Punto de interacción y comunicación usuario – dispositivo, que incluye aspectos de visualización como la pantalla, teclado, mouse, entre otros.',
     },

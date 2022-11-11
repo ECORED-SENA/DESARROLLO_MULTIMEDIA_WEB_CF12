@@ -67,12 +67,12 @@
                 span ¿Fue fácil encontrar el producto que buscaba? (SÍ/NO) por qué (argumente la respuesta)
             li
               i.fas.fa-check-circle.trans_5
-              span <b>TAREA 2:</b> Pedir 2 unidades del producto seleccionado y hacer el proceso hasta el momento de pagar
+              span <b>TAREA 2:</b> pedir 2 unidades del producto seleccionado y hacer el proceso hasta el momento de pagar
                 br
-                span ¿Pudo aumentar la cantidad de unidades a pedir? (SÍ/NO) manifieste como lo pudo hacer o porque no lo pudo hacer
+                span ¿Pudo aumentar la cantidad de unidades a pedir? (SÍ/NO) manifieste cómo lo pudo hacer o por qué no lo pudo hacer
             li
               i.fas.fa-check-circle.trans_5
-              span <b>TAREA 3:</b> Cancelar el proceso de pedido
+              span <b>TAREA 3:</b> cancelar el proceso de pedido
                 br
                 span ¿Pudo cancelar el pedido que estaba realizando? (SÍ/NO) porqué (explicar qué pasó si hubo algún error en la cancelación)
       .col-12.col-md-6.col-lg-4(data-aos="fade-left")

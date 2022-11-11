@@ -21,7 +21,7 @@
       <feComposite in="SourceGraphic"/>
     </filter>
   </defs>
-  <g id="Grupo_900015" data-name="Grupo 900015" transform="translate(-381 -9365.817)">
+  <g id="Grupo_900000" data-name="Grupo 900000" transform="translate(-381 -9365.817)">
     <g transform="matrix(1, 0, 0, 1, 381, 9365.82)" filter="url(#Rectángulo_303746)">
       <g id="Rectángulo_303746-2" data-name="Rectángulo 303746" transform="translate(9 209)" fill="#fff" stroke="#7c3910" stroke-width="1">
         <path d="M0,0H820a0,0,0,0,1,0,0V1469a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V0A0,0,0,0,1,0,0Z" stroke="none"/>
@@ -44,14 +44,14 @@
 " transform="translate(504 9630.817)" fill="#12263f" font-size="20" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="4.368" y="21">Cuestionario sobre el entorno: “Aplicación de Comidas Rápidas”</tspan></text>
     <text id="juanitoperez_dominio.co_not_shared_" data-name="juanitoperez@dominio.co (not shared)" transform="translate(553 9665.817)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="19">juanitoperez@dominio.co (</tspan><tspan y="19" font-family="Roboto-Italic, Roboto" font-style="italic">not shared</tspan><tspan y="19">)</tspan></text>
     <text id="La_puntuación_que_considera_se_le_debe_dar_a_la_estructura_de_la_página_principal_del_aplicativo_de_acuerdo_con_la_claridad_que_presenta_es:_" data-name="La puntuación que considera se le debe dar a la estructura de la página principal del aplicativo de acuerdo con la claridad que presenta es: *
-" transform="translate(542 9771.817)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="19">La puntuación que considera se le debe dar a la estructura de la </tspan><tspan x="0" y="43">página principal del aplicativo de acuerdo con la claridad que </tspan></text>
+" transform="translate(542 9771.817)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="19">La puntuación que considera se le debe dar a la estructura de la </tspan><tspan x="0" y="43">página principal del aplicativo de acuerdo con la claridad que </tspan><tspan x="0" y="67">presenta es: </tspan><tspan y="67" fill="#ff0017">*</tspan></text>
     <text id="El_tiempo_de_respuesta_para_ingresar_a_cada_pestaña_del_aplicativo_es:_" data-name="El tiempo de respuesta para ingresar a cada pestaña del aplicativo es:  *
 " transform="translate(542 9995.817)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="19">El tiempo de respuesta para ingresar a cada pestaña del aplicativo </tspan><tspan x="0" y="43" xml:space="preserve">es:  </tspan><tspan y="43" fill="#ff0017">*</tspan></text>
     <text id="_Cuándo_se_selecciona_un_producto_se_pueden_visualizar_una_descripción_completa_del_mismo_incluido_el_precio_y_la_foto_" data-name="¿Cuándo se selecciona un producto se pueden visualizar una descripción completa del mismo, incluido el precio y la foto?  * " transform="translate(542 10199.817)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="19">¿Cuándo se selecciona un producto se pueden visualizar una </tspan><tspan x="0" y="43" xml:space="preserve">descripción completa del mismo, incluido el precio y la foto?  </tspan><tspan y="43" fill="#ff0017">*</tspan><tspan y="43"> </tspan></text>
     <text id="El_Tipo_de_fuente_y_el_tamaño_utilizado_en_el_aplicativo_son_adecuados:_" data-name="El Tipo de fuente y el tamaño utilizado en el aplicativo son adecuados:  *" transform="translate(542 10403.817)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="19">El Tipo de fuente y el tamaño utilizado en el aplicativo son </tspan><tspan x="0" y="43" xml:space="preserve">adecuados:  </tspan><tspan y="43" fill="#ff0017">*</tspan></text>
     <text id="Los_mensajes_que_utiliza_el_aplicativo_después_de_realizada_una_interacción_orientan_con_claridad_al_usuario_respecto_a_lo_que_debe_hacer_después:_" data-name="Los mensajes que utiliza el aplicativo después de realizada una interacción, orientan con claridad al usuario respecto a lo que debe hacer después:  *
-" transform="translate(542 10607.817)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="19">Los mensajes que utiliza el aplicativo después de realizada una </tspan><tspan x="0" y="43">interacción, orientan con claridad al usuario respecto a lo que debe </tspan></text>
-    <text id="_En_qué_aspecto_considera_que_puede_mejorar_la_estructura_general_de_la_aplicación_" data-name="¿En qué aspecto considera que puede mejorar la estructura general de la aplicación?  *" transform="translate(542 10831.817)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="19">¿En qué aspecto considera que puede mejorar la estructura general </tspan></text>
+" transform="translate(542 10607.817)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="19">Los mensajes que utiliza el aplicativo después de realizada una </tspan><tspan x="0" y="43">interacción, orientan con claridad al usuario respecto a lo que debe </tspan><tspan x="0" y="67" xml:space="preserve">hacer después:  </tspan><tspan y="67" fill="#ff0017">*</tspan></text>
+    <text id="_En_qué_aspecto_considera_que_puede_mejorar_la_estructura_general_de_la_aplicación_" data-name="¿En qué aspecto considera que puede mejorar la estructura general de la aplicación?  *" transform="translate(542 10831.817)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="19">¿En qué aspecto considera que puede mejorar la estructura general </tspan><tspan x="0" y="43" xml:space="preserve">de la aplicación?  </tspan><tspan y="43" fill="#ff0017">*</tspan></text>
     <text id="Escribe_aquí_tu_respuesta" data-name="Escribe aquí tu respuesta" transform="translate(542 10884.817)" fill="#bababa" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="19">Escribe aquí tu respuesta</tspan></text>
     <text id="a._10_b._40" data-name="a. 10
 b. 40" transform="translate(572 9856.817)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="19">a. 10</tspan><tspan x="0" y="53">b. 40</tspan></text>
@@ -60,8 +60,8 @@ d. 100" transform="translate(746 9856.817)" fill="#12263f" font-size="18" font-f
     <text id="a._Muy_lento_b._Lento_" data-name="a. Muy lento 
 b. Lento
 " transform="translate(572 10060.817)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="19">a. Muy lento </tspan><tspan x="0" y="53">b. Lento</tspan></text>
-    <text id="a._SI_B._NO" data-name="a. SI
-B. NO" transform="translate(572 10264.817)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="19">a. SI</tspan><tspan x="0" y="53">B. NO</tspan></text>
+    <text id="a._SI_b._NO" data-name="a. SI
+b. NO" transform="translate(572 10264.817)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="19">a. SI</tspan><tspan x="0" y="53">b. NO</tspan></text>
     <text id="a._Muy_de_acuerdo_b._Muy_en_desacuerdo_" data-name="a. Muy de acuerdo 
 b. Muy en desacuerdo " transform="translate(572 10468.817)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="19">a. Muy de acuerdo </tspan><tspan x="0" y="53">b. Muy en desacuerdo </tspan></text>
     <text id="a._Siempre_b._Casi_siempre_" data-name="a. Siempre

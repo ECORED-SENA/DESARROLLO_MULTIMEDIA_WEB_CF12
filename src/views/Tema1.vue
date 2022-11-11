@@ -50,7 +50,7 @@
         .bgr_1.p-4.h-100
           figure.mb-3.d-flex.justify-content-center
             img.img110(src='@/assets/curso/tema1/t1-6.svg', alt='Texto que describa la imagen')
-          p.mb-0.text-center <b> Experiencia de usuario (UX):</b> según la International Standard ISO 9241-210 (2010), la UX tiene que ver con “las percepciones y respuestas de la persona resultantes del uso y / o uso anticipado de un producto, sistema o Servicio”.
+          p.mb-0.text-center <b> Experiencia de usuario (UX):</b> según la International Standard ISO 9241-210 (2010), la UX tiene que ver con “las percepciones y respuestas de la persona resultantes del uso y / o uso anticipado de un producto, sistema o servicio”.
     
     .bg_grad-02
       p.mb-5 En el proceso de diseño y desarrollo de proyectos multimedia se debe evaluar permanentemente la experiencia del usuario al interactuar con el producto/servicio, de tal manera que llegue a tener plena satisfacción y de esta forma evitar rediseños que consumen más tiempo de lo planificado y mayores recursos de los presupuestados. Para lograr una UX satisfactoria entonces se debe evaluar la usabilidad, accesibilidad y escalabilidad del producto. 
@@ -140,7 +140,7 @@
       .col-12.col-lg-7.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="fade-left")
         LineaTiempoD.color-acento-botones
           p(numero="H1" titulo="Visibilidad del estado del sistema") El usuario debe recibir una retroalimentación del estado del producto en cada instante para saber qué pasa cuando interactúa con él, por ejemplo si está guardando, cargando, o si hay algún tipo de error.
-          p(numero="H2" titulo="Visibilidad del estado del sistema") Se debe brindar al usuario toda la información necesaria para que no tenga dudas o cometa errores en la acción que va a realizar. 
+          p(numero="H2" titulo="Relación del producto con el mundo real") Se debe brindar al usuario toda la información necesaria para que no tenga dudas o cometa errores en la acción que va a realizar. 
           p(numero="H3" titulo="Libertad al usuario") El sistema debe permitir que el usuario cancele un proceso que estaba realizando sin finalizarlo, de tal manera que esta acción no representa compromisos o penalizaciones que puedan llegar a afectar en cualquier aspecto de su estado emocional o material.
           p(numero="H4" titulo="Consistencia") Utilizar un patrón de diseño de los elementos del producto no solo le proporciona coherencia sino claridad y facilidad de uso a la hora de ser utilizado por el usuario. Por ejemplo cuando se diseñan botones se debe colocar del mismo color y tamaño.
           p(numero="H5" titulo="Prevención de errores") Se deben dar instrucciones claras a los usuarios sobre cómo manejar el producto y las acciones que deben realizar para evitar su mal uso y posteriormente el abandono, debido a los errores que puede arrojar.
@@ -152,7 +152,7 @@
           p.text-small(numero="H7" titulo="Flexibilidad y eficiencia de uso") Se refiere a la capacidad de utilización del producto independientemente del tipo de usuario; es decir si a este se le facilita el uso de las herramientas tecnológicas o si por el contrario no le es sencillo ni familiar hacerlo.
           p.text-small(numero="H8" titulo="Diseño minimalista") Es importante no saturar de información al usuario del producto, mostrándole contenido innecesario que lo distraiga y lo desvíe del objetivo de utilización del producto. 
           p.text-small(numero="H9" titulo="Reconocer y corregir errores") Proporciona información al usuario de lo que está generando errores en la utilización del producto multimedia, y le brinda recomendaciones de las acciones que puede realizar para un buen uso del sistema.
-          p.text-small(numero="H10" titulo="Ayuda y documentación") Se deben detectar las dudas más comunes de los usuarios cuando está usando el producto multimedia e incluir la información necesaria para que él mismo pueda encontrar la manera de resolverlas. De esta forma el producto se hace auto gestionable.
+          p.text-small(numero="H10" titulo="Ayuda y documentación") Se deben detectar las dudas más comunes de los usuarios cuando está usando el producto multimedia e incluir la información necesaria para que él mismo pueda encontrar la manera de resolverlas. De esta forma el producto se hace autogestionable.
       .col-12.col-md-6.col-lg-5.mb-3.mb-lg-0(data-aos="fade-right")
         figure.d-flex.justify-content-center
           img.img450(src='@/assets/curso/tema1/t1-15.svg', alt='Texto que describa la imagen')
@@ -206,7 +206,7 @@
               div.position-relative.p-5
                 img.trans_9(src='@/assets/curso/tema1/t1-26.svg', alt='Texto que describa la imagen')
                 h3 Funcionamiento en modo asincrónico
-                p.mb-0 Una manera de lograr la escalabilidad es que las operaciones y funciones del producto multimedia se ejecuten de manera asincrónica, es decir que dos o más procesos se pueden realicen al mismo tiempo y se van liberando a medida que vayan terminando su ejecución. Por ejemplo cuando el usuario solicita dos servicios de la web, el sistema libera el que pueda ejecutarse primero de acuerdo con los recursos para enseguida liberar el segundo.
+                p.mb-0 Una manera de lograr la escalabilidad es que las operaciones y funciones del producto multimedia se ejecuten de manera asincrónica, es decir que dos o más procesos se realicen al mismo tiempo y se van liberando a medida que vayan terminando su ejecución. Por ejemplo cuando el usuario solicita dos servicios de la web, el sistema libera el que pueda ejecutarse primero de acuerdo con los recursos para enseguida liberar el segundo.
               div.position-relative.p-5
                 img.trans_9(src='@/assets/curso/tema1/t1-27.svg', alt='Texto que describa la imagen')
                 .row.position-relative
@@ -314,7 +314,7 @@
               p.mb-0 Se pueden incluir instrucciones y también preguntas en el <em>wireframe</em> referentes a las acciones que realizaría para llevar a cabo la tarea, para saber si hay algo confuso o para agregar alguna observación respecto a la estructura de la interfaz.
           .row
             .col-md-9.mb-4.mb-md-0.d-flex.align-items-center.mb-3.mb-md-0
-              p.mb-0 e.	Imprimir el <em>wireframe</em> para que cada participante lo diligencie de manera individual. Cada tarea para evaluar debe ocupar una hoja y ser diligenciada sin pasar a otra o al respaldo, para no tergiversar o malinterpretar lo que se quiere expresar respecto a la funcionalidad evaluada. 
+              p.mb-0 Imprimir el <em>wireframe</em> para que cada participante lo diligencie de manera individual. Cada tarea para evaluar debe ocupar una hoja y ser diligenciada sin pasar a otra o al respaldo, para no tergiversar o malinterpretar lo que se quiere expresar respecto a la fu ncionalidad evaluada. 
             .col-md-3
               figure.d-flex.justify-content-center
                 img.img110(src='@/assets/curso/tema1/t1-39.svg', alt='Texto que describa la imagen')
@@ -346,7 +346,7 @@
             figure.trans_1.d-flex.justify-content-center
               img.ps-1(src='@/assets/curso/tema1/t1-16.png', alt='Texto que describa la imagen')
           .col-12.col-md-8.col-lg-10.d-flex.align-items-center
-            p.text-bold.mb-0 La mejor metodología para realizar esta técnica es teniendo la primera versión del producto terminado, aunque también se puede realizar sobre un <em>wireframe</em> de baja fidelidad, ya que esta técnica tiene que ver con la evaluación de la interfaz o espacio visual que contiene imágenes y objetos con los que interactúa usuario y no con las funcionalidades del producto. Lo que se hace es comparar la interfase con el estándar para verificar que se cumplan los parámetros.
+            p.text-bold.mb-0 La mejor metodología para realizar esta técnica es teniendo la primera versión del producto terminado, aunque también se puede realizar sobre un <em>wireframe</em> de baja fidelidad, ya que esta técnica tiene que ver con la evaluación de la interfaz o espacio visual que contiene imágenes y objetos con los que interactúa el usuario y no con las funcionalidades del producto. Lo que se hace es comparar la interfase con el estándar para verificar que se cumplan los parámetros.
     
     .row.mb-3.mb-lg-5.justify-content-center
       .col-12.col-md-6.col-lg-4.mb-3.mb-lg-0(data-aos="fade-left")
@@ -407,13 +407,13 @@
     separador
 
     #t_1_3.titulo-segundo.color-acento-botones(data-aos="fade-right")
-      h2 1.3 Método de Test
+      h2 1.3 Método de test
 
     .bg_grad-03
       p Este método se utiliza cuando se tiene el prototipo del producto multimedia, para lo cual el diseñador selecciona un grupo de usuarios a los cuales se les asignan diferentes tareas a ser ejecutadas para determinar cómo el sistema entrega los resultados de lo que se le está solicitando. Este método tiene las siguientes técnicas:
     
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="zoom-in-up")
-      div(titulo="Técnica de las Prestaciones")
+      div(titulo="Técnica de las prestaciones")
         p Esta técnica se utiliza para medir aspectos del uso del producto, por ello se debe llevar a cabo sobre el prototipo o sobre el producto terminado de tal forma que el evaluador pueda visualizar el número de errores que arroja el aplicativo, o las percepciones de los usuarios frente a lo que el producto lo puede beneficiar, por lo que se considera una técnica cuantitativa y cualitativa.
         figure
           img.d-none.d-md-flex(src='@/assets/curso/tema1/t1-47.svg', alt='Texto que describa la imagen')
@@ -427,7 +427,7 @@
             img.d-flex.d-md-none(src='@/assets/curso/tema1/t1-47-6.svg', alt='Texto que describa la imagen')
             img.d-flex.d-md-none(src='@/assets/curso/tema1/t1-47-7.svg', alt='Texto que describa la imagen')
 
-      div(titulo="Técnica Pensar en voz alta")
+      div(titulo="Técnica pensar en voz alta")
         p Esta técnica se utiliza para conocer lo que piensan los usuarios cuando están interactuando con el aplicativo, determinando el proceso cognitivo que realizan cuando recorren el producto y lo están utilizando. Esta técnica ayuda al desarrollador a identificar la secuencia lógica del usuario y su terminología cuando está usando el aplicativo de tal manera que pueda traducir esto en líneas de código.
         figure
           img.d-none.d-md-flex(src='@/assets/curso/tema1/t1-48.svg', alt='Texto que describa la imagen')
@@ -437,7 +437,7 @@
             img.d-flex.d-md-none(src='@/assets/curso/tema1/t1-48-2.svg', alt='Texto que describa la imagen') 
             img.d-flex.d-md-none(src='@/assets/curso/tema1/t1-48-3.svg', alt='Texto que describa la imagen') 
             img.d-flex.d-md-none(src='@/assets/curso/tema1/t1-48-4.svg', alt='Texto que describa la imagen') 
-      div(titulo="Técnica de Interacción constructiva")
+      div(titulo="Técnica de interacción constructiva")
         p Esta técnica se utiliza para conocer cómo varios usuarios pueden interactuar con el producto multimedia sin recibir ningún tipo e instrucción, sólo con la construcción de sus propios modelos mentales para usarlo. Aunque la mayor desventaja de esta técnica es que las personas tienen metodología de aprendizaje y formas de construcción muy diferentes, aspecto que puede dificultar establecer un patrón a seguir en la forma de usar el producto.
         figure
           img.d-none.d-md-flex(src='@/assets/curso/tema1/t1-49.svg', alt='Texto que describa la imagen')
@@ -447,7 +447,7 @@
             img.d-flex.d-md-none(src='@/assets/curso/tema1/t1-49-2.svg', alt='Texto que describa la imagen') 
             img.d-flex.d-md-none(src='@/assets/curso/tema1/t1-49-3.svg', alt='Texto que describa la imagen') 
             img.d-flex.d-md-none(src='@/assets/curso/tema1/t1-49-4.svg', alt='Texto que describa la imagen') 
-      div(titulo="Técnica de Test retrospectivo")
+      div(titulo="Técnica de test retrospectivo")
         p Esta técnica se utiliza después de una sesión grabada con el usuario que ha utilizado el producto multimedia. Se dispone al usuario para que vea la grabación y se detenga en los puntos que considere ampliar respecto del funcionamiento, resaltando los aspectos de uso positivos o negativos. La mayor desventaja de esta técnica es que suele tomar más tiempo que las demás si son varios usuarios los que la deben realizar.
         figure
           img.d-none.d-md-flex(src='@/assets/curso/tema1/t1-50.svg', alt='Texto que describa la imagen')
@@ -457,7 +457,7 @@
             img.d-flex.d-md-none(src='@/assets/curso/tema1/t1-50-2.svg', alt='Texto que describa la imagen') 
             img.d-flex.d-md-none(src='@/assets/curso/tema1/t1-50-3.svg', alt='Texto que describa la imagen') 
             img.d-flex.d-md-none(src='@/assets/curso/tema1/t1-50-4.svg', alt='Texto que describa la imagen') 
-      div(titulo="Técnica del Conductor")
+      div(titulo="Técnica del conductor")
         p En esta técnica el experto evaluador conduce al usuario en el recorrido de todas las funciones del producto, de tal manera que a este le quede claro la manera de usarlo. Es una técnica centrada en el usuario que no tiene experiencia con el tipo de producto multimedia que se está desarrollando, para descubrir las necesidades de información que este pueda tener. 
         figure
           img.d-none.d-md-flex(src='@/assets/curso/tema1/t1-51.svg', alt='Texto que describa la imagen')
