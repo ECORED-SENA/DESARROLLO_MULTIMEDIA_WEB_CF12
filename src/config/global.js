@@ -216,7 +216,8 @@ export default {
       tema: '1.3. Método de Test',
       referencia: 'Lorés, J. et al. (2006). Evaluación.',
       tipo: 'Artículo',
-      link: 'https://aipo.es/libro/pdf/04Evalua.pdf',
+      link:
+        'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jJ5ChdQAAAAJ&citation_for_view=jJ5ChdQAAAAJ:d1gkVwhDpl0C',
     },
     {
       tema: '4. Estrategias de CRM',
@@ -356,7 +357,8 @@ export default {
     },
     {
       referencia: 'Lorés, J., Sendín, M. y Agost, J. (2006). Evaluación.',
-      link: 'https://aipo.es/libro/pdf/04Evalua.pdf',
+      link:
+        'https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jJ5ChdQAAAAJ&citation_for_view=jJ5ChdQAAAAJ:d1gkVwhDpl0C',
     },
     {
       referencia:
