@@ -99,7 +99,7 @@
         figure.d-flex.justify-content-center
           img.img30.d-none.d-lg-flex(src='@/assets/componentes/btv.svg', alt='Texto que describa la imagen') 
       .col-12.col-lg-11
-        span Cabe resaltar que en este punto se hablarán de los <em>softwares</em> más relevantes del mercado dando un breve concepto, recalcando que para poder realizar una práctica solo requiere ser puesto en marcha y conocer los diversos sistemas que un CRM puede operar, de igual forma se da claridad que no se mencionará un escalafón de CRM, es decir cuál puede ser el mejor, porque sencillamente se adaptan a las necesidades del uso que se le otorgue por parte del usuario. 
+        span Cabe resaltar que en este punto se hablarán de los <em>software</em> más relevantes del mercado dando un breve concepto, recalcando que para poder realizar una práctica solo requiere ser puesto en marcha y conocer los diversos sistemas que un CRM puede operar, de igual forma se da claridad que no se mencionará un escalafón de CRM, es decir cuál puede ser el mejor, porque sencillamente se adaptan a las necesidades del uso que se le otorgue por parte del usuario. 
         span.colr_3.text-bold Por tanto, a continuación, se hará referencia de cada uno de ellos:
     
     .tarjeta.bgr_12.p-md-4(data-aos="zoom-in")
