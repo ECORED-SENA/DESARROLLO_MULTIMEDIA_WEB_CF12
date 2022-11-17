@@ -143,7 +143,7 @@
           .col-12.col-lg-9.d-flex.align-items-center.trans_8
             div
               h3 MACROGES CRM
-              p.mb-0 Su principal característica es que es un <em>software</em> de facturación (50 facturas anuales sin costo) muy útil para los emprendedores, integra todo en un solo componente, su modelo de negocio es un (<em>freemium</em>), su interfaz se asemeja mucho a un calendario en el cual se tiene el control total de los clientes y sus movimientos en tiempo real, es de fácil manipulación, su versión de trabajó está en español, finalmente cuenta con un disco exclusivo de almacenamiento.
+              p.mb-0 Su principal característica es que es un <em>software</em> de facturación (50 facturas anuales sin costo) muy útil para los emprendedores, integra todo en un solo componente, su modelo de negocio es un (<em>freemium</em>), su interfaz se asemeja mucho a un calendario en el cual se tiene el control total de los clientes y sus movimientos en tiempo real, es de fácil manipulación, su versión de trabajo está en español, finalmente cuenta con un disco exclusivo de almacenamiento.
         .row.p-4
           .col-12.col-lg-3.mb-3.mb-lg-0
             figure.d-flex.justify-content-center
